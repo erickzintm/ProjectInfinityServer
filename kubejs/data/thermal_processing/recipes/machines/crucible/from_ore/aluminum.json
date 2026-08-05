@@ -1,0 +1,13 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "tag": "c:ores/aluminum"
+    },
+    "result": [
+        {
+            "fluid": "common_ore_library:molten_aluminum",
+            "amount": 180
+        }
+    ],
+    "energy": 20000
+}

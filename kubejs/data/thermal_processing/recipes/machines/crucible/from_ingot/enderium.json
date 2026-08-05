@@ -1,0 +1,13 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "tag": "c:ingots/enderium"
+    },
+    "result": [
+        {
+            "fluid": "thermal_processing:molten_enderium",
+            "amount": 90
+        }
+    ],
+    "energy": 5000
+}

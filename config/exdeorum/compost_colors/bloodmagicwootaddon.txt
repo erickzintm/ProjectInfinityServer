@@ -1,0 +1,2 @@
+// Compost colors for bloodmagicwootaddon. You may add your own colors, change existing ones, or remove colors that aren't needed.
+blood_collector_upgrade, #542f2f

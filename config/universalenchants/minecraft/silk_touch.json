@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:digger",
+    "ae2:annihilation_plane",
+    "apotheosis:pickaxe_tome",
+    "industrialforegoing:infinity_drill",
+    "industrialforegoing:infinity_saw",
+    "buildinggadgets2:gadget_exchanging",
+    "thermal:flux_drill",
+    "thermal:flux_saw",
+    "twilightforest:block_and_chain",
+    "cyclic:scythe_brush",
+    "cyclic:scythe_leaves"
+  ],
+  "incompatible": [
+    "minecraft:luck_of_the_sea",
+    "cyclic:auto_smelt",
+    "minecraft:looting",
+    "minecraft:fortune",
+    "enderio:xp_boost",
+    "enderio:auto_smelt",
+    "endlessbiomes:vwooping"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+    "type": "everlastingabilities:attribute_modifier",
+    "name": "ability.everlastingabilities.heart_gainer",
+    "rarity": "rare",
+    "max_level": 10,
+    "xp_per_level": 35,
+    "attribute": "generic.max_health",
+    "amount_factor": 2,
+    "obtainable_on_player_spawn": false,
+    "obtainable_on_mob_spawn": false,
+    "obtainable_on_craft": false,
+    "obtainable_on_loot": false,
+    "operation": "add_value"
+}

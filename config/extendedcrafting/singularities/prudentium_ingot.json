@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.prudentium_ingot",
+  "colors": [
+    "008705",
+    "008705"
+  ],
+  "ingredient": {
+    "item": "mysticalagriculture:prudentium_ingot"
+  },
+  "materialCount": 7500
+}

@@ -1,0 +1,13 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "tag": "c:rods/invar"
+    },
+    "result": [
+        {
+            "fluid": "common_ore_library:molten_invar",
+            "amount": 90
+        }
+    ],
+    "energy": 5000
+}

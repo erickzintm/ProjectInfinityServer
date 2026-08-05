@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.fiery_ingot",
+  "colors": [
+    "d90404",
+    "fa5b05"
+  ],
+  "ingredient": {
+    "item": "twilightforest:fiery_ingot"
+  },
+  "materialCount": 15000
+}

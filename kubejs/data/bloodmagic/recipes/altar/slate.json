@@ -1,0 +1,13 @@
+{
+    "type": "bloodmagic:altar",
+    "altarSyphon": 1000,
+    "consumptionRate": 10,
+    "drainRate": 10,
+    "input": {
+        "tag": "forge:stone"
+    },
+    "output": {
+        "item": "bloodmagic:blankslate"
+    },
+    "upgradeLevel": 0
+}

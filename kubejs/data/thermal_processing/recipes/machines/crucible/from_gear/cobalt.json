@@ -1,0 +1,13 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "tag": "c:gears/cobalt"
+    },
+    "result": [
+        {
+            "fluid": "common_ore_library:molten_cobalt",
+            "amount": 360
+        }
+    ],
+    "energy": 20000
+}

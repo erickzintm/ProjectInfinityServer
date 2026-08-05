@@ -1,0 +1,13 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "tag": "c:rods/lumium"
+    },
+    "result": [
+        {
+            "fluid": "thermal_processing:molten_lumium",
+            "amount": 90
+        }
+    ],
+    "energy": 5000
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Sky Steel",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:5",
+  "ingredient": {
+      "tag": "forge:ingots/sky_steel"
+  },
+  "color": "121212",
+  "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot"
+  },
+  "recipes": {
+    "infusion": false // the infusion altar recipe for the seed
+  }
+}

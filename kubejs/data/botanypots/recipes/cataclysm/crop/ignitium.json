@@ -1,0 +1,34 @@
+{
+    "type": "botanypots:crop",
+    "seed": {
+        "item": "mysticalagriculture:ignitium_seeds"
+    },
+    "categories": ["ignitium_block"],
+    "growthTicks": 4800,
+    "display": {
+        "type": "botanypots:aging",
+        "block": "mysticalagriculture:ignitium_crop"
+    },
+    "drops": [
+        {
+            "chance": 1.0,
+            "output": {
+                "item": "mysticalagriculture:ignitium_essence"
+            }
+        },
+        {
+            "chance": 0.01,
+            "output": {
+                "item": "mysticalagriculture:ignitium_seeds"
+            }
+        },
+        {
+            "chance": 0.01,
+            "output": {
+                "item": "mysticalagriculture:fertilized_essence"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        }
+    ]
+}

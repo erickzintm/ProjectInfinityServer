@@ -1,0 +1,29 @@
+{
+    "type": "botanypots:crop",
+    "seed": {
+        "item": "actuallyadditions:canola_seeds"
+    },
+    "categories": ["dirt"],
+    "growthTicks": 1200,
+    "display": {
+        "block": "actuallyadditions:canola"
+    },
+    "drops": [
+        {
+            "chance": 0.5,
+            "output": {
+                "item": "actuallyadditions:canola"
+            },
+            "minRolls": 1,
+            "maxRolls": 2
+        },
+        {
+            "chance": 0.01,
+            "output": {
+                "item": "actuallyadditions:canola_seeds"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        }
+    ]
+}

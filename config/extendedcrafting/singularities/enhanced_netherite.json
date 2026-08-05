@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.enhanced_netherite_ingot",
+  "colors": [
+    "af07f7",
+    "220030"
+  ],
+  "ingredient": {
+    "item": "armorplus:en_netherite"
+  },
+  "materialCount": 20000
+}

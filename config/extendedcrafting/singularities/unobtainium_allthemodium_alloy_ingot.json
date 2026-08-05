@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.unobtainium_allthemodium_ingot",
+  "colors": [
+    "f5cc02",
+    "f502f1"
+  ],
+  "ingredient": {
+    "item": "allthemodium:unobtainium_allthemodium_alloy_ingot"
+  },
+  "materialCount": 125
+}

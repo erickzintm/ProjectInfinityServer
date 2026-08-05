@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.prosperity_ingot",
+  "colors": [
+    "edfffc",
+    "edfffc"
+  ],
+  "ingredient": {
+    "item": "mysticalagriculture:prosperity_ingot"
+  },
+  "materialCount": 25000
+}

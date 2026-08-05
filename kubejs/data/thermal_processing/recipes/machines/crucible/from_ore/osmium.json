@@ -1,0 +1,13 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "tag": "c:ores/osmium"
+    },
+    "result": [
+        {
+            "fluid": "common_ore_library:molten_osmium",
+            "amount": 180
+        }
+    ],
+    "energy": 20000
+}

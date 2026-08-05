@@ -1,0 +1,13 @@
+{
+    "type": "exdeorum:hammer",
+    "ingredient": [
+        {
+            "item": "compressium:sand_1"
+        },
+        {
+            "item": "compressium:redsand_1"
+        }
+    ],
+    "result": "exdeorum:compressed_dust",
+    "result_amount": 2.0
+}

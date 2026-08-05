@@ -1,0 +1,4 @@
+// Compost colors for bygonenether. You may add your own colors, change existing ones, or remove colors that aren't needed.
+netherite_bell, #4d3c43
+warped_ender_pearl, #19b8a2
+wither_waltz_music_disc, #322d40

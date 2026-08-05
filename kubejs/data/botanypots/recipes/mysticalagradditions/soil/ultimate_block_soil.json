@@ -1,0 +1,21 @@
+{
+    "type": "botanypots:soil",
+    "input": {
+        "item": "extendedcrafting:the_ultimate_block"
+    },
+    "display": {
+        "block": "extendedcrafting:the_ultimate_block"
+    },
+    "categories": [
+        "dirt",
+        "farmland",
+        "inferium",
+        "prudentium",
+        "tertium",
+        "imperium",
+        "supremium",
+        "insanium",
+        "infinity"
+    ],
+    "growthModifier": 2.0
+}

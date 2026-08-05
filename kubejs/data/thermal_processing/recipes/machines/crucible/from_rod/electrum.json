@@ -1,0 +1,13 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "tag": "c:rods/electrum"
+    },
+    "result": [
+        {
+            "fluid": "common_ore_library:molten_electrum",
+            "amount": 90
+        }
+    ],
+    "energy": 5000
+}

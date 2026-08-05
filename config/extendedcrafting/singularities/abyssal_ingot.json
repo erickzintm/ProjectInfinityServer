@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.abyssal_ingot",
+  "colors": [
+    "255c03",
+    "255c03"
+  ],
+  "ingredient": {
+    "item": "thermal_extra:abyssal_ingot"
+  },
+  "materialCount": 1500
+}

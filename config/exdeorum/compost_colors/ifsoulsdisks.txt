@@ -1,0 +1,7 @@
+// Compost colors for ifsoulsdisks. You may add your own colors, change existing ones, or remove colors that aren't needed.
+souls_cell_housing, #82aeb8
+souls_storage_cell_16k, #7ab5b2
+souls_storage_cell_1k, #84acb2
+souls_storage_cell_256k, #83afbe
+souls_storage_cell_4k, #87b5b1
+souls_storage_cell_64k, #7fb5bf

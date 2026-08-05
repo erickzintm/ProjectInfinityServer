@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.sculk_alloy_ingot",
+  "colors": [
+    "01422e",
+    "012e08"
+  ],
+  "ingredient": {
+    "item": "kubejs:sculk_alloy_ingot"
+  },
+  "materialCount": 1250
+}

@@ -1,0 +1,11 @@
+{
+    "type": "botanypots:soil",
+    "input": {
+        "item": "mysticalagradditions:dragon_egg_crux"
+    },
+    "display": {
+        "block": "mysticalagradditions:dragon_egg_crux"
+    },
+    "categories": ["dragon_egg_crux"],
+    "growthModifier": 1.66
+}

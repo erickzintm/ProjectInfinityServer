@@ -1,0 +1,13 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "tag": "c:gears/constantan"
+    },
+    "result": [
+        {
+            "fluid": "thermal_processing:molten_constantan",
+            "amount": 360
+        }
+    ],
+    "energy": 20000
+}

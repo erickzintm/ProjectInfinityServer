@@ -1,0 +1,11 @@
+{
+    "type": "functionalstorage:custom_compacting",
+    "higher_input": {
+        "count": 1,
+        "item": "common_ore_library:aluminum_ore"
+    },
+    "lower_input": {
+        "count": 4,
+        "item": "exdeorum:aluminum_ore_chunk"
+    }
+}

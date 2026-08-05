@@ -1,0 +1,11 @@
+{
+    "type": "botanypots:soil",
+    "input": {
+        "item": "mysticalagradditions:nitro_crystal_crux"
+    },
+    "display": {
+        "block": "mysticalagradditions:nitro_crystal_crux"
+    },
+    "categories": ["nitro_crystal_crux"],
+    "growthModifier": 1.66
+}

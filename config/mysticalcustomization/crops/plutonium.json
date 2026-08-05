@@ -1,0 +1,17 @@
+{
+  "name": "Plutonium",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagradditions:6",
+  "ingredient": {
+    "item": "mekanism:pellet_plutonium"
+  },
+  "color": "80eaff",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  },
+  "crux": "evolvedmekanism:block_better_gold",
+  "recipes": {
+    "infusion": false
+  }
+}

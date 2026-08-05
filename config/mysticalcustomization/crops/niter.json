@@ -1,0 +1,16 @@
+{
+  "name": "Niter",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:2",
+  "ingredient": {
+    "item": "thermal:niter"
+  },
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_rock",
+    "essence": "mysticalagriculture:item/essence_gem"
+  },
+  "recipes": {
+    "infusion": false // the infusion altar recipe for the seed
+  }
+}
+ 

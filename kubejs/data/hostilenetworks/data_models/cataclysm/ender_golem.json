@@ -1,0 +1,37 @@
+{
+    "entity": "cataclysm:ender_golem",
+    "variants": [],
+    "name": "entity.cataclysm.ender_golem",
+    "name_color": "#c41aa2",
+    "gui_scale": 0.6,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 50000,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:end_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.ender_golem",
+    "fabricator_drops": [
+        {
+            "item": "cataclysm:enderite_ingot",
+            "count": 4
+        },
+        {
+            "item": "cataclysm:void_core",
+            "count": 1
+        },
+        {
+            "item": "cataclysm:void_jaw",
+            "count": 1
+        },
+        {
+            "item": "kubejs:voidmetal_ingot",
+            "count": 4
+        }
+    ],
+    "tier_data": [3, 54, 354, 1254]
+}

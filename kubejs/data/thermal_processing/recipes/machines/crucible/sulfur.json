@@ -1,0 +1,13 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "tag": "c:gems/sulfur"
+    },
+    "result": [
+        {
+            "fluid": "thermal_processing:molten_sulfur",
+            "amount": 250
+        }
+    ],
+    "energy": 5000
+}

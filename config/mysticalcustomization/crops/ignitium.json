@@ -1,0 +1,17 @@
+{
+  "name": "Ignitium",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:5",
+  "ingredient": {
+    "item": "cataclysm:ignitium_ingot"
+  },
+  "color": "ff8800",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  },
+  "crux": "cataclysm:ignitium_block",
+  "recipes": {
+    "infusion": false // the infusion altar recipe for the seed
+  }
+}

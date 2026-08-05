@@ -1,0 +1,264 @@
+{
+    "size": "medium",
+    "color": "#e1a378",
+    "rules": {
+        "allow_discarding": true,
+        "player_damage_only": true
+    },
+    "waves": [
+        {
+            "entities": [
+                {
+                    "entity": "minecraft:piglin_brute"
+                },
+                {
+                    "entity": "minecraft:piglin_brute"
+                },
+                {
+                    "entity": "minecraft:piglin_brute"
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "minecraft:piglin_brute",
+                    "rolls": 5
+                }
+            ],
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+        {
+            "entities": [
+                {
+                    "entity": "minecraft:piglin_brute"
+                },
+                {
+                    "entity": "minecraft:piglin_brute"
+                },
+                {
+                    "entity": "minecraft:piglin_brute"
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.33
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 2.5
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.33
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.05
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.05
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "minecraft:piglin_brute",
+                    "rolls": 10
+                }
+            ],
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+        {
+            "entities": [
+                {
+                    "entity": "minecraft:piglin_brute"
+                },
+                {
+                    "entity": "minecraft:piglin_brute"
+                },
+                {
+                    "entity": "minecraft:piglin_brute"
+                },
+                {
+                    "entity": "minecraft:piglin_brute"
+                },
+                {
+                    "entity": "minecraft:piglin_brute"
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.66
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 4
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.5
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.1
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.1
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "minecraft:piglin_brute",
+                    "rolls": 15
+                }
+            ],
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+        {
+            "entities": [
+                {
+                    "entity": "minecraft:piglin_brute"
+                },
+                {
+                    "entity": "minecraft:piglin_brute"
+                },
+                {
+                    "entity": "minecraft:piglin_brute"
+                },
+                {
+                    "entity": "minecraft:piglin_brute"
+                },
+                {
+                    "entity": "minecraft:piglin_brute"
+                },
+                {
+                    "entity": "minecraft:piglin_brute"
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.85
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 5
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.66
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.15
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.15
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "minecraft:piglin_brute",
+                    "rolls": 20
+                }
+            ],
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+        {
+            "entities": [
+                {
+                    "entity": "minecraft:piglin_brute"
+                },
+                {
+                    "entity": "minecraft:piglin_brute"
+                },
+                {
+                    "entity": "minecraft:piglin_brute"
+                },
+                {
+                    "entity": "minecraft:piglin_brute"
+                },
+                {
+                    "entity": "minecraft:piglin_brute"
+                },
+                {
+                    "entity": "minecraft:piglin_brute"
+                },
+                {
+                    "entity": "minecraft:piglin_brute"
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 1.25
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 6
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.85
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.2
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.2
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "minecraft:piglin_brute",
+                    "rolls": 25
+                }
+            ],
+            "max_wave_time": 750,
+            "setup_time": 150
+        }
+    ],
+    "rewards": [
+        {
+            "type": "gateways:entity_loot",
+            "entity": "minecraft:piglin_brute",
+            "rolls": 60
+        }
+    ],
+    "completion_xp": 500,
+    "spawn_range": 7
+}

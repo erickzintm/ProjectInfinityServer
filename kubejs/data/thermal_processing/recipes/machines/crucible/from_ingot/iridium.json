@@ -1,0 +1,13 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "tag": "c:ingots/iridium"
+    },
+    "result": [
+        {
+            "fluid": "common_ore_library:molten_iridium",
+            "amount": 90
+        }
+    ],
+    "energy": 5000
+}

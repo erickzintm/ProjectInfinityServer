@@ -1,0 +1,13 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "tag": "c:rods/tin"
+    },
+    "result": [
+        {
+            "fluid": "common_ore_library:molten_tin",
+            "amount": 90
+        }
+    ],
+    "energy": 5000
+}

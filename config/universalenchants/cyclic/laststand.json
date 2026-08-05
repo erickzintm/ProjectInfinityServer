@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_legs",
+    "apotheosis:leggings_tome"
+  ],
+  "incompatible": [
+    "cyclic:launch",
+    "minecraft:thorns",
+    "cyclic:experience_boost",
+    "minecraft:mending",
+    "endlessbiomes:vwooping"
+  ]
+}

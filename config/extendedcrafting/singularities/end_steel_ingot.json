@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.end_steel_ingot",
+  "colors": [
+    "f5ff9c",
+    "f5ff9c"
+  ],
+  "ingredient": {
+    "item": "enderio:end_steel_ingot"
+  },
+  "materialCount": 1500
+}

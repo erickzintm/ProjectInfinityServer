@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.iridium_ingot",
+  "colors": [
+    "6e6b68",
+    "807e7d"
+  ],
+  "ingredient": {
+    "item": "common_ore_library:iridium_ingot"
+  },
+  "materialCount": 20000
+}

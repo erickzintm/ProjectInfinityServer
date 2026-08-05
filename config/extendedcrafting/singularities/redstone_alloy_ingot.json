@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.redstone_alloy_ingot",
+  "colors": [
+    "ff0000",
+    "8a0901"
+  ],
+  "ingredient": {
+    "item": "enderio:redstone_alloy_ingot"
+  },
+  "materialCount": 25000
+}

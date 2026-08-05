@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.knightmetal_ingot",
+  "colors": [
+    "79f2ba",
+    "6ab894"
+  ],
+  "ingredient": {
+    "item": "twilightforest:knightmetal_ingot"
+  },
+  "materialCount": 5000
+}

@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.shellite_ingot",
+  "colors": [
+    "ac05ff",
+    "ac05ff"
+  ],
+  "ingredient": {
+    "item": "thermal_extra:shellite_ingot"
+  },
+  "materialCount": 1500
+}

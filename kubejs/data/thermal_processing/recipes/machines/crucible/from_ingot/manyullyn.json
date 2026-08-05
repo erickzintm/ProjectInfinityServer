@@ -1,0 +1,13 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "tag": "c:ingots/manyullyn"
+    },
+    "result": [
+        {
+            "fluid": "common_ore_library:molten_manyullyn",
+            "amount": 90
+        }
+    ],
+    "energy": 5000
+}

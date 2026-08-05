@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.tertium_ingot",
+  "colors": [
+    "ff8400",
+    "8c4900"
+  ],
+  "ingredient": {
+    "item": "mysticalagriculture:tertium_ingot"
+  },
+  "materialCount": 5000
+}

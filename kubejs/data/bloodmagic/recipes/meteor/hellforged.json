@@ -1,0 +1,44 @@
+{
+    "type": "bloodmagic:meteor",
+    "explosion": 24.0,
+    "input": {
+        "item": "kubejs:compressed_hellforgedparts"
+    },
+    "layers": [
+        {
+            "additionalWeight": 0,
+            "fill": {
+                "block": "minecraft:diamond_ore"
+            },
+            "minWeight": 0,
+            "radius": 3
+        },
+        {
+            "additionalWeight": 0,
+            "fill": {
+                "block": "bloodmagic:dungeon_stone"
+            },
+            "minWeight": 800,
+            "radius": 3,
+            "weightMap": [
+                {
+                    "block": "bloodmagic:dungeon_ore",
+                    "weight": 250
+                },
+                {
+                    "block": "bloodmagic:rawdemoniteblock",
+                    "weight": 75
+                },
+                {
+                    "block": "bloodmagic:speedrune2",
+                    "weight": 35
+                },
+                {
+                    "block": "bloodmagic:altarcapacityrune2",
+                    "weight": 35
+                }
+            ]
+        }
+    ],
+    "syphon": 10000000
+}

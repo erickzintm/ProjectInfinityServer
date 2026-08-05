@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:desert",
+        "minecraft:badlands",
+        "allthemodium:soul_sand_valley",
+        "allthemodium:desert"
+    ]
+}

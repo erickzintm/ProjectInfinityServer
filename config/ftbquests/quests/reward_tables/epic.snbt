@@ -1,0 +1,81 @@
+{
+	icon: "minecraft:chest"
+	id: "617F6D802ED0FD00"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{ item: "powah:thermo_generator_spirited" }
+		{
+			item: {
+				Count: 1
+				id: "mekanism:elite_energy_cube"
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "64000000"
+						}]
+					}
+				}
+			}
+		}
+		{ count: 6, icon: "mekanism:dirty_netherite_scrap", item: "mekanism:dirty_netherite_scrap", weight: 3.5f }
+		{ item: "mekanism:ultimate_tier_installer" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:fortune"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:efficiency"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{ item: "mekanism:quantum_entangloporter" }
+		{
+			type: "xp_levels"
+			xp_levels: 50
+		}
+		{ item: "ironfurnaces:netherite_furnace" }
+	]
+	title: "{ftbquests.loot_table.7025454341029952768.title}"
+	use_title: true
+}

@@ -1,0 +1,29 @@
+{
+    "type": "botanypots:crop",
+    "seed": {
+        "item": "actuallyadditions:rice_seeds"
+    },
+    "categories": ["dirt"],
+    "growthTicks": 1200,
+    "display": {
+        "block": "actuallyadditions:rice"
+    },
+    "drops": [
+        {
+            "chance": 0.5,
+            "output": {
+                "item": "actuallyadditions:rice"
+            },
+            "minRolls": 1,
+            "maxRolls": 2
+        },
+        {
+            "chance": 0.01,
+            "output": {
+                "item": "actuallyadditions:rice_seeds"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        }
+    ]
+}

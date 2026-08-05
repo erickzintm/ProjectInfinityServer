@@ -1,0 +1,13 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "tag": "c:gears/iron"
+    },
+    "result": [
+        {
+            "fluid": "common_ore_library:molten_iron",
+            "amount": 360
+        }
+    ],
+    "energy": 20000
+}

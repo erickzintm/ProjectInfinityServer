@@ -1,0 +1,620 @@
+{
+  "entries": [
+    {
+      "item": "projecte:transmutation_table",
+      "emc": 2000000001
+    },
+    {
+      "item": "projecte:transmutation_tablet",
+      "emc": 2000000001
+    },
+    {
+      "item": "projecte:condenser_mk2",
+      "emc": 2000000001
+    },
+    {
+      "item": "projecte:condenser_mk1",
+      "emc": 1000000001
+    },
+    {
+      "item": "projectexpansion:basic_power_flower",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:dark_power_flower",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:red_power_flower",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:magenta_power_flower",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:pink_power_flower",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:purple_power_flower",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:violet_power_flower",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:blue_power_flower",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:cyan_power_flower",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:green_power_flower",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:lime_power_flower",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:yellow_power_flower",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:orange_power_flower",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:white_power_flower",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:fading_power_flower",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:final_power_flower",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:yellow_collector",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:white_collector",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:lime_collector",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:pink_collector",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:basic_collector",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:violet_collector",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:blue_collector",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:cyan_collector",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:orange_collector",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:dark_collector",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:magenta_collector",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:red_collector",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:fading_collector",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:purple_collector",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:final_collector",
+      "emc": 0
+    },
+    {
+      "item": "projectexpansion:green_collector",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:neutron_pile",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:neutron_nugget",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:neutron_ingot",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:neutron",
+      "emc": 0
+    },
+    {
+      "item": "projecte:tome",
+      "emc": 1
+    },
+    {
+      "item": "extendedcrafting:crystaltine_ingot",
+      "emc": 250000001
+    },
+    {
+      "item": "avaritia:eternal_singularity",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:emerald\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:iron\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:platinum\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:glowstone\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:bronze\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:coal\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:uranium\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:obsidian\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:copper\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:redstone\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:invar\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:blue_ice\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:aluminum\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:silver\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:refined_obsidian\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:steel\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:osmium\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:lead\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:quartz\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:gold\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:amethyst_shard\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:netherite\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:tin\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:diamond\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:nickel\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:lapis_lazuli\"}",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:singularity{Id:\"avaritia:electrum\"}",
+      "emc": 0
+    },
+    {
+      "item": "mythicbotany:wither_aconite",
+      "emc": 5000000001
+    },
+    {
+      "item": "tiab:time_in_a_bottle",
+      "emc": 0
+    },
+    {
+      "item": "sophisticatedbackpacks:backpack",
+      "emc": 0
+    },
+    {
+      "item": "functionalstorage:oak_1",
+      "emc": 0
+    },
+    {
+      "item": "functionalstorage:spruce_1",
+      "emc": 0
+    },
+    {
+      "item": "functionalstorage:birch_1",
+      "emc": 0
+    },
+    {
+      "item": "functionalstorage:jungle_1",
+      "emc": 0
+    },
+    {
+      "item": "functionalstorage:acacia_1",
+      "emc": 0
+    },
+    {
+      "item": "functionalstorage:dark_oak_1",
+      "emc": 0
+    },
+    {
+      "item": "functionalstorage:crimson_1",
+      "emc": 0
+    },
+    {
+      "item": "functionalstorage:warped_1",
+      "emc": 0
+    },
+    {
+      "item": "functionalstorage:mangrove_1",
+      "emc": 0
+    },
+    {
+      "item": "functionalstorage:cherry_1",
+      "emc": 0
+    },
+    {
+      "item": "functionalstorage:framed_1",
+      "emc": 0
+    },
+    {
+      "item": "functionalstorage:oak_2",
+      "emc": 0
+    },
+    {
+      "item": "functionalstorage:spruce_2",
+      "emc": 0
+    },
+    {
+      "item": "functionalstorage:birch_2",
+      "emc": 0
+    },
+    {
+      "item": "functionalstorage:jungle_2",
+      "emc": 0
+    },
+    {
+      "item": "functionalstorage:acacia_2",
+      "emc": 0
+    },
+    {
+      "item": "functionalstorage:dark_oak_2",
+      "emc": 0
+    },
+    {
+      "item": "functionalstorage:crimson_2",
+      "emc": 0
+    },
+    {
+      "item": "functionalstorage:warped_2",
+      "emc": 0
+    },
+    {
+      "item": "functionalstorage:mangrove_2",
+      "emc": 0
+    },
+    {
+      "item": "functionalstorage:cherry_2",
+      "emc": 0
+    },
+    {
+      "item": "functionalstorage:framed_2",
+      "emc": 0
+    },
+    {
+      "item": "functionalstorage:oak_4",
+      "emc": 0
+    },
+    {
+      "item": "functionalstorage:spruce_4",
+      "emc": 0
+    },
+    {
+      "item": "functionalstorage:birch_4",
+      "emc": 0
+    },
+    {
+      "item": "functionalstorage:jungle_4",
+      "emc": 0
+    },
+    {
+      "item": "functionalstorage:acacia_4",
+      "emc": 0
+    },
+    {
+      "item": "functionalstorage:dark_oak_4",
+      "emc": 0
+    },
+    {
+      "item": "functionalstorage:crimson_4",
+      "emc": 0
+    },
+    {
+      "item": "functionalstorage:warped_4",
+      "emc": 0
+    },
+    {
+      "item": "functionalstorage:mangrove_4",
+      "emc": 0
+    },
+    {
+      "item": "functionalstorage:cherry_4",
+      "emc": 0
+    },
+    {
+      "item": "functionalstorage:framed_4",
+      "emc": 0
+    },
+    {
+      "item": "functionalstorage:fluid_1",
+      "emc": 0
+    },
+    {
+      "item": "functionalstorage:fluid_2",
+      "emc": 0
+    },
+    {
+      "item": "functionalstorage:fluid_4",
+      "emc": 0
+    },
+    {
+      "item": "functionalstorage:compacting_drawer",
+      "emc": 0
+    },
+    {
+      "item": "functionalstorage:compacting_framed_drawer",
+      "emc": 0
+    },
+    {
+      "item": "functionalstorage:simple_compacting_drawer",
+      "emc": 0
+    },
+    {
+      "item": "functionalstorage:framed_simple_compacting_drawer",
+      "emc": 0
+    },
+    {
+      "item": "functionalstorage:armory_cabinet",
+      "emc": 0
+    },
+    {
+      "item": "sophisticatedstorage:barrel",
+      "emc": 0
+    },
+    {
+      "item": "sophisticatedstorage:limited_barrel_1",
+      "emc": 0
+    },
+    {
+      "item": "sophisticatedstorage:limited_barrel_2",
+      "emc": 0
+    },
+    {
+      "item": "sophisticatedstorage:limited_barrel_3",
+      "emc": 0
+    },
+    {
+      "item": "sophisticatedstorage:limited_barrel_4",
+      "emc": 0
+    },
+    {
+      "item": "sophisticatedstorage:chest",
+      "emc": 0
+    },
+    {
+      "item": "sophisticatedstorage:iron_chest",
+      "emc": 0
+    },
+    {
+      "item": "sophisticatedstorage:shulker_box",
+      "emc": 0
+    },
+    {
+      "item": "sophisticatedstorage:iron_shulker_box",
+      "emc": 0
+    },
+    {
+      "item": "sophisticatedstorage:gold_shulker_box",
+      "emc": 0
+    },
+    {
+      "item": "sophisticatedstorage:diamond_shulker_box",
+      "emc": 0
+    },
+    {
+      "item": "sophisticatedstorage:netherite_shulker_box",
+      "emc": 0
+    },
+    {
+      "item": "sophisticatedstorage:copper_shulker_box",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:shulker_box",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:white_shulker_box",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:light_gray_shulker_box",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:gray_shulker_box",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:black_shulker_box",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:brown_shulker_box",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:red_shulker_box",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:orange_shulker_box",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:yellow_shulker_box",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:lime_shulker_box",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:green_shulker_box",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:cyan_shulker_box",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:light_blue_shulker_box",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:blue_shulker_box",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:purple_shulker_box",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:magenta_shulker_box",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:pink_shulker_box",
+      "emc": 0
+    },
+    {
+      "item": "sophisticatedbackpacks:copper_backpack",
+      "emc": 0
+    },
+    {
+      "item": "sophisticatedbackpacks:iron_backpack",
+      "emc": 0
+    },
+    {
+      "item": "sophisticatedbackpacks:gold_backpack",
+      "emc": 0
+    },
+    {
+      "item": "sophisticatedbackpacks:diamond_backpack",
+      "emc": 0
+    },
+    {
+      "item": "sophisticatedbackpacks:netherite_backpack",
+      "emc": 0
+    },
+    {
+      "item": "hostilenetworks:deep_learner",
+      "emc": 0
+    },
+    {
+      "item": "minecraft:charcoal",
+      "emc": 64
+    },
+    {
+      "item": "projecte:low_covalence_dust",
+      "emc": 72
+    },
+    {
+      "item": "projecte:philosophers_stone",
+      "emc": 1000000001
+    },
+    {
+      "item": "kubejs:fake_transmutation_tablet",
+      "emc": 2000000001
+    }
+  ]
+}

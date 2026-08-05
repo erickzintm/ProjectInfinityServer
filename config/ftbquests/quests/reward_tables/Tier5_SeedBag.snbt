@@ -1,0 +1,40 @@
+{
+	icon: "mysticalagriculture:supremium_gemstone"
+	id: "3256FDEE1B753EE1"
+	loot_size: 1
+	order_index: 18
+	rewards: [
+		{ item: "mysticalagriculture:supremium_farmland", weight: 10.0f }
+		{ item: "mysticalagriculture:supremium_furnace", weight: 3.0f }
+		{ item: "mysticalagriculture:supremium_growth_accelerator", weight: 5.0f }
+		{ item: "mysticalagriculture:supremium_block" }
+		{ item: "mysticalagradditions:supremium_apple", weight: 10.0f }
+		{ item: "mysticalagradditions:supremium_coal", weight: 7.0f }
+		{ item: "mysticalagradditions:supremium_coal_block", weight: 5.0f }
+		{ item: "mysticalagriculture:strength_iii_augment", weight: 3.0f }
+		{ item: "mysticalagriculture:health_boost_v_augment", weight: 3.0f }
+		{ item: "mysticalagriculture:flight_augment" }
+		{ item: "mysticalagriculture:supremium_essence", random_bonus: 1, weight: 10.0f }
+		{ item: "mysticalagriculture:supremium_ingot", random_bonus: 2, weight: 5.0f }
+		{ item: "mysticalagriculture:supremium_gemstone", random_bonus: 1, weight: 5.0f }
+		{ item: "mysticalagriculture:ignitium_seeds" }
+		{ item: "mysticalagriculture:sky_steel_seeds" }
+		{ item: "mysticalagriculture:diamond_seeds" }
+		{ item: "mysticalagriculture:emerald_seeds" }
+		{ item: "mysticalagriculture:netherite_seeds" }
+		{ item: "mysticalagriculture:wither_skeleton_seeds" }
+		{ item: "mysticalagriculture:platinum_seeds" }
+		{ item: "mysticalagriculture:iridium_seeds" }
+		{ item: "mysticalagriculture:enderium_seeds" }
+		{ item: "mysticalagriculture:flux_infused_gem_seeds" }
+		{ item: "mysticalagriculture:manyullyn_seeds" }
+		{ item: "mysticalagriculture:vibrant_alloy_seeds" }
+		{ item: "mysticalagriculture:end_steel_seeds" }
+		{ item: "mysticalagriculture:terrasteel_seeds" }
+		{ item: "mysticalagriculture:draconium_seeds" }
+		{ item: "mysticalagriculture:niotic_crystal_seeds" }
+		{ item: "mysticalagriculture:spirited_crystal_seeds" }
+		{ item: "mysticalagriculture:uraninite_seeds" }
+	]
+	title: "{ftbquests.loot_table.3627365748998225633.title}"
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:breakable",
+    "minecraft:anvil",
+    "minecraft:chipped_anvil",
+    "minecraft:damaged_anvil",
+    "apotheosis:boots_tome",
+    "apotheosis:bow_tome",
+    "apotheosis:chestplate_tome",
+    "apotheosis:fishing_tome",
+    "apotheosis:helmet_tome",
+    "apotheosis:leggings_tome",
+    "apotheosis:pickaxe_tome",
+    "apotheosis:weapon_tome",
+    "industrialforegoing:infinity_drill",
+    "industrialforegoing:infinity_saw",
+    "industrialforegoing:infinity_hammer",
+    "industrialforegoing:infinity_trident",
+    "industrialforegoing:infinity_backpack",
+    "industrialforegoing:infinity_launcher",
+    "mysticaladaptations:insanium_shears",
+    "mysticalagriculture:supremium_shears",
+    "mysticalagriculture:awakened_supremium_shears"
+  ],
+  "incompatible": [
+    "armorplus:soul_harden"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+    "type": "everlastingabilities:effect",
+    "target": "radius",
+    "name": "ability.everlastingabilities.bad_omen",
+    "rarity": "epic",
+    "max_level": 4,
+    "xp_per_level": 200,
+    "obtainable_on_player_spawn": false,
+    "obtainable_on_mob_spawn": false,
+    "obtainable_on_craft": false,
+    "obtainable_on_loot": false,
+    "effect": "minecraft:bad_omen"
+}

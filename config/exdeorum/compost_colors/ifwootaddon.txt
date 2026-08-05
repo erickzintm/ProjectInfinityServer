@@ -1,0 +1,4 @@
+// Compost colors for ifwootaddon. You may add your own colors, change existing ones, or remove colors that aren't needed.
+mob_crusher_upgrade, #4e6b52
+mob_slaughter_factory_upgrade, #415c44
+stygian_laser_lens, #acaeaf

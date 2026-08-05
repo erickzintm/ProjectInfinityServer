@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.enderium_ingot",
+  "colors": [
+    "1f2487",
+    "0f135e"
+  ],
+  "ingredient": {
+    "item": "thermal:enderium_ingot"
+  },
+  "materialCount": 3000
+}

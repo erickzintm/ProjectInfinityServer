@@ -1,0 +1,51 @@
+{
+	icon: "mysticalagriculture:prudentium_gemstone"
+	id: "21B1896C13F84C09"
+	loot_size: 1
+	order_index: 16
+	rewards: [
+		{ item: "mysticalagradditions:prudentium_apple", weight: 7.0f }
+		{ item: "mysticalagradditions:prudentium_coal_block", weight: 3.0f }
+		{ item: "mysticalagriculture:mining_aoe_i_augment" }
+		{ item: "mysticalagriculture:speed_i_augment" }
+		{ item: "mysticalagriculture:health_boost_ii_augment" }
+		{ item: "mysticalagriculture:water_breathing_augment" }
+		{ item: "mysticalagriculture:night_vision_augment" }
+		{ item: "mysticalagriculture:prudentium_block", weight: 3.0f }
+		{ item: "mysticalagriculture:prudentium_farmland", weight: 7.0f }
+		{ item: "mysticalagriculture:prudentium_growth_accelerator", weight: 5.0f }
+		{ item: "mysticalagriculture:prudentium_furnace", weight: 5.0f }
+		{ count: 4, item: "mysticalagriculture:prudentium_essence", random_bonus: 4, weight: 10.0f }
+		{ item: "mysticalagriculture:prudentium_ingot", random_bonus: 2, weight: 7.0f }
+		{ item: "mysticalagriculture:prudentium_gemstone", weight: 5.0f }
+		{ item: "mysticalagriculture:niter_seeds" }
+		{ item: "mysticalagriculture:plastic_seeds" }
+		{ item: "mysticalagriculture:nature_seeds" }
+		{ item: "mysticalagriculture:dye_seeds" }
+		{ item: "mysticalagriculture:nether_seeds" }
+		{ item: "mysticalagriculture:coal_seeds" }
+		{ item: "mysticalagriculture:coral_seeds" }
+		{ item: "mysticalagriculture:honey_seeds" }
+		{ item: "mysticalagriculture:amethyst_seeds" }
+		{ item: "mysticalagriculture:pig_seeds" }
+		{ item: "mysticalagriculture:chicken_seeds" }
+		{ item: "mysticalagriculture:cow_seeds" }
+		{ item: "mysticalagriculture:sheep_seeds" }
+		{ item: "mysticalagriculture:squid_seeds" }
+		{ item: "mysticalagriculture:fish_seeds" }
+		{ item: "mysticalagriculture:slime_seeds" }
+		{ item: "mysticalagriculture:turtle_seeds" }
+		{ item: "mysticalagriculture:rubber_seeds" }
+		{ item: "mysticalagriculture:sulfur_seeds" }
+		{ item: "mysticalagriculture:silicon_seeds" }
+		{ item: "mysticalagriculture:aluminum_seeds" }
+		{ item: "mysticalagriculture:apatite_seeds" }
+		{ item: "mysticalagriculture:grains_of_infinity_seeds" }
+		{ item: "mysticalagriculture:mystical_flower_seeds" }
+		{ item: "mysticalagriculture:marble_seeds" }
+		{ item: "mysticalagriculture:basalt_seeds" }
+		{ item: "mysticalagriculture:menril_seeds" }
+	]
+	title: "{ftbquests.loot_table.2427872771413920777.title}"
+	use_title: true
+}

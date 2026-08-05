@@ -1,0 +1,35 @@
+# Mundo e dados dos jogadores
+world/
+world_nether/
+world_the_end/
+backups/
+playerdata/
+stats/
+advancements/
+
+# Mods e bibliotecas baixáveis
+mods/
+libraries/
+downloads/
+*.jar
+
+# Logs e erros
+logs/
+crash-reports/
+*.log
+
+# Caches e arquivos temporários
+.mixin.out/
+local/
+run/
+cache/
+dynamic-data-pack-cache/
+server-icon-original.*
+usercache.json
+usernamecache.json
+
+# Arquivos do sistema
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/

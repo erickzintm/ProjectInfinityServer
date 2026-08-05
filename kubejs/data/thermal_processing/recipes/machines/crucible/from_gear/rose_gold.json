@@ -1,0 +1,19 @@
+{
+    "type": "thermal:crucible",
+    "conditions": [
+        {
+            "type": "forge:item_exists",
+            "item": "thermal:rose_gold_gear"
+        }
+    ],
+    "ingredient": {
+        "tag": "c:gears/rose_gold"
+    },
+    "result": [
+        {
+            "fluid": "thermal_processing:molten_rose_gold",
+            "amount": 360
+        }
+    ],
+    "energy": 20000
+}

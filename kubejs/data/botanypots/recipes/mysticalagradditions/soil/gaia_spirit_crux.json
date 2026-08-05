@@ -1,0 +1,11 @@
+{
+    "type": "botanypots:soil",
+    "input": {
+        "item": "mysticalagradditions:gaia_spirit_crux"
+    },
+    "display": {
+        "block": "mysticalagradditions:gaia_spirit_crux"
+    },
+    "categories": ["gaia_spirit_crux"],
+    "growthModifier": 1.66
+}

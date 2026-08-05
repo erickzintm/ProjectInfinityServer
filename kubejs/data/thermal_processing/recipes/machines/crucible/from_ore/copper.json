@@ -1,0 +1,13 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "tag": "c:ores/copper"
+    },
+    "result": [
+        {
+            "fluid": "common_ore_library:molten_copper",
+            "amount": 180
+        }
+    ],
+    "energy": 20000
+}

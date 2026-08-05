@@ -1,0 +1,12 @@
+{
+    "type": "everlastingabilities:special_magnetize",
+    "name": "ability.everlastingabilities.magnetize",
+    "rarity": "uncommon",
+    "max_level": 5,
+    "xp_per_level": 20,
+    "obtainable_on_player_spawn": false,
+    "obtainable_on_mob_spawn": false,
+    "obtainable_on_craft": false,
+    "obtainable_on_loot": false,
+    "move_xp": true
+}

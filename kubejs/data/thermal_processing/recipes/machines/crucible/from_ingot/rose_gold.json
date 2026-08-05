@@ -1,0 +1,19 @@
+{
+    "type": "thermal:crucible",
+    "conditions": [
+        {
+            "type": "forge:item_exists",
+            "item": "thermal:rose_gold_ingot"
+        }
+    ],
+    "ingredient": {
+        "tag": "c:ingots/rose_gold"
+    },
+    "result": [
+        {
+            "fluid": "thermal_processing:molten_rose_gold",
+            "amount": 90
+        }
+    ],
+    "energy": 5000
+}

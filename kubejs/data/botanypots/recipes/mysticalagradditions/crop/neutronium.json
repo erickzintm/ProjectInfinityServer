@@ -1,0 +1,34 @@
+{
+    "type": "botanypots:crop",
+    "seed": {
+        "item": "mysticalagriculture:neutronium_seeds"
+    },
+    "categories": ["neutronium_crux"],
+    "growthTicks": 4800,
+    "display": {
+        "type": "botanypots:aging",
+        "block": "mysticalagriculture:neutronium_crop"
+    },
+    "drops": [
+        {
+            "chance": 1.0,
+            "output": {
+                "item": "mysticalagriculture:neutronium_essence"
+            }
+        },
+        {
+            "chance": 0.01,
+            "output": {
+                "item": "mysticalagriculture:neutronium_seeds"
+            }
+        },
+        {
+            "chance": 0.01,
+            "output": {
+                "item": "mysticalagriculture:fertilized_essence"
+            },
+            "minRolls": 1,
+            "maxRolls": 1
+        }
+    ]
+}

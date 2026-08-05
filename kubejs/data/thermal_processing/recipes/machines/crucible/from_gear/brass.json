@@ -1,0 +1,13 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "tag": "c:gears/brass"
+    },
+    "result": [
+        {
+            "fluid": "common_ore_library:molten_brass",
+            "amount": 360
+        }
+    ],
+    "energy": 20000
+}

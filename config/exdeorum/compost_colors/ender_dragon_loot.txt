@@ -1,0 +1,14 @@
+// Compost colors for ender_dragon_loot. You may add your own colors, change existing ones, or remove colors that aren't needed.
+dragon_armor_boots, #222222
+dragon_armor_chestplate, #282828
+dragon_armor_helmet, #3c343d
+dragon_armor_leggings, #1f1f1f
+dragon_axe, #472652
+dragon_hoe, #3c2346
+dragon_paxel, #4a2555
+dragon_pickaxe, #3e2048
+dragon_scale, #292929
+dragon_shard, #34253a
+dragon_shovel, #472652
+dragon_sword, #522c61
+dragon_upgrade_template, #5e4369

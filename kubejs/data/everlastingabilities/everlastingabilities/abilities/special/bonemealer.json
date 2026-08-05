@@ -1,0 +1,11 @@
+{
+    "type": "everlastingabilities:special_bonemealer",
+    "name": "ability.everlastingabilities.bonemealer",
+    "rarity": "uncommon",
+    "max_level": 5,
+    "obtainable_on_player_spawn": false,
+    "obtainable_on_mob_spawn": false,
+    "obtainable_on_craft": false,
+    "obtainable_on_loot": false,
+    "xp_per_level": 30
+}

@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.refined_obsidian_ingot",
+  "colors": [
+    "9a08c7",
+    "be2feb"
+  ],
+  "ingredient": {
+    "item": "mekanism:ingot_refined_obsidian"
+  },
+  "materialCount": 10000
+}

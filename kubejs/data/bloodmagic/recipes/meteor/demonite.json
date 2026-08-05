@@ -1,0 +1,44 @@
+{
+  "type": "bloodmagic:meteor",
+  "explosion": 8.0,
+  "input": {
+    "item": "bloodmagic:dungeon_ore"
+  },
+  "layers": [
+    {
+      "additionalWeight": 0,
+      "fill": {
+        "block": "minecraft:diamond_ore"
+      },
+      "minWeight": 0,
+      "radius": 3
+    },
+    {
+      "additionalWeight": 0,
+      "fill": {
+        "block": "bloodmagic:dungeon_stone"
+      },
+      "minWeight": 750,
+      "radius": 3,
+      "weightMap": [
+        {
+          "block": "bloodmagic:dungeon_ore",
+          "weight": 250
+        },
+        {
+          "block": "bloodmagic:rawdemoniteblock",
+          "weight": 50
+        },
+        {
+          "block": "bloodmagic:speedrune",
+          "weight": 25
+        },
+        {
+          "block": "bloodmagic:altarcapacityrune",
+          "weight": 25
+        }
+      ]
+    }
+  ],
+  "syphon": 1000000
+}

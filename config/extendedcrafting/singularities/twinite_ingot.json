@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.twinite_ingot",
+  "colors": [
+    "ff8c8c",
+    "965656"
+  ],
+  "ingredient": {
+    "item": "thermal_extra:twinite_ingot"
+  },
+  "materialCount": 1500
+}

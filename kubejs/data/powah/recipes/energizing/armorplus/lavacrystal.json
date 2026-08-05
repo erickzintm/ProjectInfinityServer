@@ -1,0 +1,15 @@
+{
+    "type": "powah:energizing",
+    "ingredients": [
+        { "item": "redstone_arsenal:flux_gem" },
+        { "item": "minecraft:redstone" },
+        { "item": "enderio:redstone_alloy_ingot" },
+        { "item": "extendedcrafting:redstone_ingot" },
+        { "item": "minecraft:lava_bucket" }
+    ],
+    "energy": 50000,
+    "result": {
+        "item": "armorplus:lava_crystal",
+        "count": 1
+    }
+}

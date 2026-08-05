@@ -1,0 +1,11 @@
+{
+    "type": "functionalstorage:custom_compacting",
+    "higher_input": {
+        "count": 1,
+        "item": "minecraft:copper_ore"
+    },
+    "lower_input": {
+        "count": 4,
+        "item": "exdeorum:copper_ore_chunk"
+    }
+}

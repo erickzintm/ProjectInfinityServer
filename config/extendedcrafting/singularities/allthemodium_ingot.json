@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.allthemodium_ingot",
+  "colors": [
+    "c9eb0c",
+    "ebf205"
+  ],
+  "ingredient": {
+    "item": "allthemodium:allthemodium_ingot"
+  },
+  "materialCount": 5000
+}

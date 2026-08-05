@@ -1,0 +1,16 @@
+{
+    "type": "bosses_of_mass_destruction:void_blossom",
+
+    "step": "underground_decoration",
+    "biomes": "#bosses_of_mass_destruction:has_structure/void_blossom",
+    "start_height": {
+        "absolute": 80
+    },
+
+    "spawn_overrides": {
+        "monster": {
+            "bounding_box": "full",
+            "spawns": []
+        }
+    }
+}

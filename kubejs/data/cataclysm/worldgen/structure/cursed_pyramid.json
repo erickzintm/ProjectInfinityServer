@@ -1,0 +1,16 @@
+{
+    "type": "cataclysm:cursed_pyramid",
+    "biomes": "#cataclysm:has_structure/cursed_pyramid_biomes",
+    "step": "underground_structures",
+    "project_start_to_heightmap": "world_surface_wg",
+    "start_height": {
+        "absolute": -300
+    },
+    "use_expansion_hack": false,
+    "spawn_overrides": {
+        "monster": {
+            "bounding_box": "piece",
+            "spawns": []
+        }
+    }
+}

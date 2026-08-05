@@ -1,0 +1,13 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "tag": "c:ingots/constantan"
+    },
+    "result": [
+        {
+            "fluid": "thermal_processing:molten_constantan",
+            "amount": 90
+        }
+    ],
+    "energy": 5000
+}

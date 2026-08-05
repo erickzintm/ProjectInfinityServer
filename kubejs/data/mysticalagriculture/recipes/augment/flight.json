@@ -1,0 +1,41 @@
+{
+    "type": "mysticalagriculture:infusion",
+    "conditions": [
+        {
+            "type": "mysticalagriculture:augment_enabled",
+            "augment": "mysticalagriculture:flight"
+        }
+    ],
+    "input": {
+        "item": "mysticalagriculture:unattuned_augment"
+    },
+    "ingredients": [
+        {
+            "item": "kubejs:infinity_1"
+        },
+        {
+            "item": "mysticalagriculture:air_essence"
+        },
+        {
+            "item": "kubejs:infinity_2"
+        },
+        {
+            "item": "mysticalagriculture:supremium_essence"
+        },
+        {
+            "item": "kubejs:infinity_3"
+        },
+        {
+            "item": "avaritia:crystal_matrix_ingot"
+        },
+        {
+            "item": "kubejs:infinity_4"
+        },
+        {
+            "item": "extendedcrafting:nether_star_block"
+        }
+    ],
+    "result": {
+        "item": "mysticalagriculture:flight_augment"
+    }
+}

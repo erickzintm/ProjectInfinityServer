@@ -1,0 +1,13 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "tag": "c:rods/bronze"
+    },
+    "result": [
+        {
+            "fluid": "common_ore_library:molten_bronze",
+            "amount": 90
+        }
+    ],
+    "energy": 5000
+}

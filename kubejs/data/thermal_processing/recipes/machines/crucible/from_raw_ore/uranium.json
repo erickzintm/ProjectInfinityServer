@@ -1,0 +1,13 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "tag": "c:raw_materials/uranium"
+    },
+    "result": [
+        {
+            "fluid": "common_ore_library:molten_uranium",
+            "amount": 90
+        }
+    ],
+    "energy": 10000
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Unobtainium",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagradditions:6",
+  "ingredient": {
+    "item": "allthemodium:unobtainium_block"
+  },
+  "color": "CE51E0",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  },
+  "crux": "allthemodium:unobtainium_block",
+  "recipes": {
+    "infusion": false // the infusion altar recipe for the seed
+  }
+}

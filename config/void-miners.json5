@@ -1,0 +1,639 @@
+{
+  "ALLOW_NO_ENERGY_MINERS": false,
+  "ALLOW_NO_ENERGY_SOLAR_PANELS": false,
+  "MINER_DIMENSION_SETTINGS": {
+    "enabled": true,
+    "defaultAllow": false,
+    "globalAllow": [
+      "minecraft:overworld",
+      "minecraft:the_nether",
+      "minecraft:the_end"
+    ],
+    "globalBlock": [],
+    "tierRules": {}
+  },
+  "SOLAR_DIMENSION_SETTINGS": {
+    "enabled": false,
+    "defaultAllow": true,
+    "globalAllow": [],
+    "globalBlock": [],
+    "tierRules": {}
+  },
+  "MINER_CONFIGS": {
+    "caerium": {
+      "energyStorage": 500000000,
+      "duration": 500,
+      "energyTick": 5500,
+      "modifiers": {
+        "speed": {
+          "energy": 1.2,
+          "speed": 0.8,
+          "item": 1.0,
+          "tooltip": [
+            "\u00a7aSpeed Boost: \u00a7f+20% faster",
+            "\u00a7eEnergy: \u00a7f+20% consumption"
+          ]
+        },
+        "item": {
+          "energy": 1.75,
+          "speed": 1.0,
+          "item": 2.0,
+          "tooltip": [
+            "\u00a7bItem Multiplier: \u00a7f+100% items",
+            "\u00a7eEnergy: \u00a7f+75% consumption"
+          ]
+        },
+        "energy": {
+          "energy": 0.75,
+          "speed": 1.0,
+          "item": 1.0,
+          "tooltip": [
+            "\u00a76Energy Efficiency: \u00a7f-25% consumption",
+            "\u00a7eNo other changes"
+          ]
+        }
+      },
+      "tooltip": [
+        "\u00a76CAERIUM MINER",
+        "\u00a79Capacity: \u00a7f500.00 MFE",
+        "\u00a7cEnergy per tick: \u00a7f5,500 FE/t"
+      ]
+    },
+    "aurantium": {
+      "energyStorage": 25000000,
+      "duration": 900,
+      "energyTick": 3500,
+      "modifiers": {
+        "speed": {
+          "energy": 1.12,
+          "speed": 0.88,
+          "item": 1.0,
+          "tooltip": [
+            "\u00a7aSpeed Boost: \u00a7f+12% faster",
+            "\u00a7eEnergy: \u00a7f+12% consumption"
+          ]
+        },
+        "item": {
+          "energy": 1.55,
+          "speed": 1.0,
+          "item": 1.6,
+          "tooltip": [
+            "\u00a7bItem Multiplier: \u00a7f+60% items",
+            "\u00a7eEnergy: \u00a7f+55% consumption"
+          ]
+        },
+        "energy": {
+          "energy": 0.83,
+          "speed": 1.0,
+          "item": 1.0,
+          "tooltip": [
+            "\u00a76Energy Efficiency: \u00a7f-17% consumption",
+            "\u00a7eNo other changes"
+          ]
+        }
+      },
+      "tooltip": [
+        "\u00a76AURANTIUM MINER",
+        "\u00a79Capacity: \u00a7f25.00 MFE",
+        "\u00a7cEnergy per tick: \u00a7f3,500 FE/t"
+      ]
+    },
+    "amethystine": {
+      "energyStorage": 750000000,
+      "duration": 400,
+      "energyTick": 6000,
+      "modifiers": {
+        "speed": {
+          "energy": 1.22,
+          "speed": 0.78,
+          "item": 1.0,
+          "tooltip": [
+            "\u00a7aSpeed Boost: \u00a7f+22% faster",
+            "\u00a7eEnergy: \u00a7f+22% consumption"
+          ]
+        },
+        "item": {
+          "energy": 1.8,
+          "speed": 1.0,
+          "item": 2.1,
+          "tooltip": [
+            "\u00a7bItem Multiplier: \u00a7f+110% items",
+            "\u00a7eEnergy: \u00a7f+80% consumption"
+          ]
+        },
+        "energy": {
+          "energy": 0.73,
+          "speed": 1.0,
+          "item": 1.0,
+          "tooltip": [
+            "\u00a76Energy Efficiency: \u00a7f-27% consumption",
+            "\u00a7eNo other changes"
+          ]
+        }
+      },
+      "tooltip": [
+        "\u00a76AMETHYSTINE MINER",
+        "\u00a79Capacity: \u00a7f750.00 MFE",
+        "\u00a7cEnergy per tick: \u00a7f6,000 FE/t"
+      ]
+    },
+    "azurine": {
+      "energyStorage": 250000000,
+      "duration": 600,
+      "energyTick": 5000,
+      "modifiers": {
+        "speed": {
+          "energy": 1.18,
+          "speed": 0.82,
+          "item": 1.0,
+          "tooltip": [
+            "\u00a7aSpeed Boost: \u00a7f+18% faster",
+            "\u00a7eEnergy: \u00a7f+18% consumption"
+          ]
+        },
+        "item": {
+          "energy": 1.7,
+          "speed": 1.0,
+          "item": 1.9,
+          "tooltip": [
+            "\u00a7bItem Multiplier: \u00a7f+90% items",
+            "\u00a7eEnergy: \u00a7f+70% consumption"
+          ]
+        },
+        "energy": {
+          "energy": 0.77,
+          "speed": 1.0,
+          "item": 1.0,
+          "tooltip": [
+            "\u00a76Energy Efficiency: \u00a7f-23% consumption",
+            "\u00a7eNo other changes"
+          ]
+        }
+      },
+      "tooltip": [
+        "\u00a76AZURINE MINER",
+        "\u00a79Capacity: \u00a7f250.00 MFE",
+        "\u00a7cEnergy per tick: \u00a7f5,000 FE/t"
+      ]
+    },
+    "ultimate": {
+      "energyStorage": 2147483647,
+      "duration": 200,
+      "energyTick": 7000,
+      "modifiers": {
+        "speed": {
+          "energy": 1.3,
+          "speed": 0.7,
+          "item": 1.0,
+          "tooltip": [
+            "\u00a7aSpeed Boost: \u00a7f+30% faster",
+            "\u00a7eEnergy: \u00a7f+30% consumption"
+          ]
+        },
+        "item": {
+          "energy": 2.0,
+          "speed": 1.0,
+          "item": 2.5,
+          "tooltip": [
+            "\u00a7bItem Multiplier: \u00a7f+150% items",
+            "\u00a7eEnergy: \u00a7f+100% consumption"
+          ]
+        },
+        "energy": {
+          "energy": 0.65,
+          "speed": 1.0,
+          "item": 1.0,
+          "tooltip": [
+            "\u00a76Energy Efficiency: \u00a7f-35% consumption",
+            "\u00a7eNo other changes"
+          ]
+        }
+      },
+      "tooltip": [
+        "\u00a76ULTIMATE MINER",
+        "\u00a79Capacity: \u00a7f2.15 GFE",
+        "\u00a7cEnergy per tick: \u00a7f7,000 FE/t"
+      ]
+    },
+    "citrinetine": {
+      "energyStorage": 50000000,
+      "duration": 800,
+      "energyTick": 4000,
+      "modifiers": {
+        "speed": {
+          "energy": 1.14,
+          "speed": 0.86,
+          "item": 1.0,
+          "tooltip": [
+            "\u00a7aSpeed Boost: \u00a7f+14% faster",
+            "\u00a7eEnergy: \u00a7f+14% consumption"
+          ]
+        },
+        "item": {
+          "energy": 1.6,
+          "speed": 1.0,
+          "item": 1.7,
+          "tooltip": [
+            "\u00a7bItem Multiplier: \u00a7f+70% items",
+            "\u00a7eEnergy: \u00a7f+60% consumption"
+          ]
+        },
+        "energy": {
+          "energy": 0.81,
+          "speed": 1.0,
+          "item": 1.0,
+          "tooltip": [
+            "\u00a76Energy Efficiency: \u00a7f-19% consumption",
+            "\u00a7eNo other changes"
+          ]
+        }
+      },
+      "tooltip": [
+        "\u00a76CITRINETINE MINER",
+        "\u00a79Capacity: \u00a7f50.00 MFE",
+        "\u00a7cEnergy per tick: \u00a7f4,000 FE/t"
+      ]
+    },
+    "verdium": {
+      "energyStorage": 100000000,
+      "duration": 700,
+      "energyTick": 4500,
+      "modifiers": {
+        "speed": {
+          "energy": 1.16,
+          "speed": 0.84,
+          "item": 1.0,
+          "tooltip": [
+            "\u00a7aSpeed Boost: \u00a7f+16% faster",
+            "\u00a7eEnergy: \u00a7f+16% consumption"
+          ]
+        },
+        "item": {
+          "energy": 1.65,
+          "speed": 1.0,
+          "item": 1.8,
+          "tooltip": [
+            "\u00a7bItem Multiplier: \u00a7f+80% items",
+            "\u00a7eEnergy: \u00a7f+65% consumption"
+          ]
+        },
+        "energy": {
+          "energy": 0.79,
+          "speed": 1.0,
+          "item": 1.0,
+          "tooltip": [
+            "\u00a76Energy Efficiency: \u00a7f-21% consumption",
+            "\u00a7eNo other changes"
+          ]
+        }
+      },
+      "tooltip": [
+        "\u00a76VERDIUM MINER",
+        "\u00a79Capacity: \u00a7f100.00 MFE",
+        "\u00a7cEnergy per tick: \u00a7f4,500 FE/t"
+      ]
+    },
+    "rosarium": {
+      "energyStorage": 1000000000,
+      "duration": 300,
+      "energyTick": 6500,
+      "modifiers": {
+        "speed": {
+          "energy": 1.24,
+          "speed": 0.76,
+          "item": 1.0,
+          "tooltip": [
+            "\u00a7aSpeed Boost: \u00a7f+24% faster",
+            "\u00a7eEnergy: \u00a7f+24% consumption"
+          ]
+        },
+        "item": {
+          "energy": 1.85,
+          "speed": 1.0,
+          "item": 2.2,
+          "tooltip": [
+            "\u00a7bItem Multiplier: \u00a7f+120% items",
+            "\u00a7eEnergy: \u00a7f+85% consumption"
+          ]
+        },
+        "energy": {
+          "energy": 0.71,
+          "speed": 1.0,
+          "item": 1.0,
+          "tooltip": [
+            "\u00a76Energy Efficiency: \u00a7f-29% consumption",
+            "\u00a7eNo other changes"
+          ]
+        }
+      },
+      "tooltip": [
+        "\u00a76ROSARIUM MINER",
+        "\u00a79Capacity: \u00a7f1.00 GFE",
+        "\u00a7cEnergy per tick: \u00a7f6,500 FE/t"
+      ]
+    },
+    "rubetine": {
+      "energyStorage": 10000000,
+      "duration": 1000,
+      "energyTick": 3000,
+      "modifiers": {
+        "speed": {
+          "energy": 1.1,
+          "speed": 0.9,
+          "item": 1.0,
+          "tooltip": [
+            "\u00a7aSpeed Boost: \u00a7f+10% faster",
+            "\u00a7eEnergy: \u00a7f+10% consumption"
+          ]
+        },
+        "item": {
+          "energy": 1.5,
+          "speed": 1.0,
+          "item": 1.5,
+          "tooltip": [
+            "\u00a7bItem Multiplier: \u00a7f+50% items",
+            "\u00a7eEnergy: \u00a7f+50% consumption"
+          ]
+        },
+        "energy": {
+          "energy": 0.85,
+          "speed": 1.0,
+          "item": 1.0,
+          "tooltip": [
+            "\u00a76Energy Efficiency: \u00a7f-15% consumption",
+            "\u00a7eNo other changes"
+          ]
+        }
+      },
+      "tooltip": [
+        "\u00a76RUBETINE MINER",
+        "\u00a79Capacity: \u00a7f10.00 MFE",
+        "\u00a7cEnergy per tick: \u00a7f3,000 FE/t"
+      ]
+    }
+  },
+  "SOLAR_PANEL_CONFIGS": {
+    "caerium": {
+      "energyStorage": 512000000,
+      "duration": 30,
+      "energyGeneration": 262144,
+      "modifiers": {
+        "weather_resistance": {
+          "generation": 1.0,
+          "efficiency": 1.0,
+          "weatherResistance": 2.2,
+          "tooltip": [
+            "\u00a79Weather Protection: \u00a7f+120%"
+          ]
+        },
+        "efficiency": {
+          "generation": 1.0,
+          "efficiency": 0.89,
+          "weatherResistance": 1.0,
+          "tooltip": [
+            "\u00a7bEfficiency Boost: \u00a7f+11%"
+          ]
+        }
+      },
+      "tooltip": [
+        "\u00a76CAERIUM SOLAR PANEL",
+        "\u00a79Capacity: \u00a7f512.00 MFE",
+        "\u00a7aGeneration: \u00a7f262,144 FE/t"
+      ]
+    },
+    "aurantium": {
+      "energyStorage": 32000000,
+      "duration": 80,
+      "energyGeneration": 2048,
+      "modifiers": {
+        "weather_resistance": {
+          "generation": 1.0,
+          "efficiency": 1.0,
+          "weatherResistance": 1.4,
+          "tooltip": [
+            "\u00a79Weather Protection: \u00a7f+40%"
+          ]
+        },
+        "efficiency": {
+          "generation": 1.0,
+          "efficiency": 0.95,
+          "weatherResistance": 1.0,
+          "tooltip": [
+            "\u00a7bEfficiency Boost: \u00a7f+5%"
+          ]
+        }
+      },
+      "tooltip": [
+        "\u00a76AURANTIUM SOLAR PANEL",
+        "\u00a79Capacity: \u00a7f32.00 MFE",
+        "\u00a7aGeneration: \u00a7f2,048 FE/t"
+      ]
+    },
+    "amethystine": {
+      "energyStorage": 2048000000,
+      "duration": 25,
+      "energyGeneration": 524288,
+      "modifiers": {
+        "weather_resistance": {
+          "generation": 1.0,
+          "efficiency": 1.0,
+          "weatherResistance": 2.37,
+          "tooltip": [
+            "\u00a79Weather Protection: \u00a7f+137%"
+          ]
+        },
+        "efficiency": {
+          "generation": 1.0,
+          "efficiency": 0.87,
+          "weatherResistance": 1.0,
+          "tooltip": [
+            "\u00a7bEfficiency Boost: \u00a7f+13%"
+          ]
+        }
+      },
+      "tooltip": [
+        "\u00a76AMETHYSTINE SOLAR PANEL",
+        "\u00a79Capacity: \u00a7f2.04 GFE",
+        "\u00a7aGeneration: \u00a7f524,288 FE/t"
+      ]
+    },
+    "azurine": {
+      "energyStorage": 256000000,
+      "duration": 40,
+      "energyGeneration": 65536,
+      "modifiers": {
+        "weather_resistance": {
+          "generation": 1.0,
+          "efficiency": 1.0,
+          "weatherResistance": 1.97,
+          "tooltip": [
+            "\u00a79Weather Protection: \u00a7f+97%"
+          ]
+        },
+        "efficiency": {
+          "generation": 1.0,
+          "efficiency": 0.91,
+          "weatherResistance": 1.0,
+          "tooltip": [
+            "\u00a7bEfficiency Boost: \u00a7f+9%"
+          ]
+        }
+      },
+      "tooltip": [
+        "\u00a76AZURINE SOLAR PANEL",
+        "\u00a79Capacity: \u00a7f256.00 MFE",
+        "\u00a7aGeneration: \u00a7f65,536 FE/t"
+      ]
+    },
+    "ultimate": {
+      "energyStorage": 461168601842738,
+      "duration": 15,
+      "energyGeneration": 203685472,
+      "modifiers": {
+        "weather_resistance": {
+          "generation": 1.0,
+          "efficiency": 1.0,
+          "weatherResistance": 3.33,
+          "tooltip": [
+            "\u00a79Weather Protection: \u00a7f+233%"
+          ]
+        },
+        "efficiency": {
+          "generation": 1.0,
+          "efficiency": 0.85,
+          "weatherResistance": 1.0,
+          "tooltip": [
+            "\u00a7bEfficiency Boost: \u00a7f+15%"
+          ]
+        }
+      },
+      "tooltip": [
+        "\u00a76ULTIMATE SOLAR PANEL",
+        "\u00a79Capacity: \u00a7f461.00 TFE",
+        "\u00a7aGeneration: \u00a7f203,685,477 FE/t"
+      ]
+    },
+    "citrinetine": {
+      "energyStorage": 64000000,
+      "duration": 60,
+      "energyGeneration": 8192,
+      "modifiers": {
+        "weather_resistance": {
+          "generation": 1.0,
+          "efficiency": 1.0,
+          "weatherResistance": 1.57,
+          "tooltip": [
+            "\u00a79Weather Protection: \u00a7f+57%"
+          ]
+        },
+        "efficiency": {
+          "generation": 1.0,
+          "efficiency": 0.93,
+          "weatherResistance": 1.0,
+          "tooltip": [
+            "\u00a7bEfficiency Boost: \u00a7f+7%"
+          ]
+        }
+      },
+      "tooltip": [
+        "\u00a76CITRINETINE SOLAR PANEL",
+        "\u00a79Capacity: \u00a7f64.00 MFE",
+        "\u00a7aGeneration: \u00a7f8,192 FE/t"
+      ]
+    },
+    "verdium": {
+      "energyStorage": 128000000,
+      "duration": 50,
+      "energyGeneration": 32768,
+      "modifiers": {
+        "weather_resistance": {
+          "generation": 1.0,
+          "efficiency": 1.0,
+          "weatherResistance": 1.8,
+          "tooltip": [
+            "\u00a79Weather Protection: \u00a7f+80%"
+          ]
+        },
+        "efficiency": {
+          "generation": 1.0,
+          "efficiency": 0.92,
+          "weatherResistance": 1.0,
+          "tooltip": [
+            "\u00a7bEfficiency Boost: \u00a7f+8%"
+          ]
+        }
+      },
+      "tooltip": [
+        "\u00a76VERDIUM SOLAR PANEL",
+        "\u00a79Capacity: \u00a7f128.00 MFE",
+        "\u00a7aGeneration: \u00a7f32,768 FE/t"
+      ]
+    },
+    "rosarium": {
+      "energyStorage": 131072000000,
+      "duration": 20,
+      "energyGeneration": 8388608,
+      "modifiers": {
+        "weather_resistance": {
+          "generation": 1.0,
+          "efficiency": 1.0,
+          "weatherResistance": 2.6,
+          "tooltip": [
+            "\u00a79Weather Protection: \u00a7f+160%"
+          ]
+        },
+        "efficiency": {
+          "generation": 1.0,
+          "efficiency": 0.86,
+          "weatherResistance": 1.0,
+          "tooltip": [
+            "\u00a7bEfficiency Boost: \u00a7f+14%"
+          ]
+        }
+      },
+      "tooltip": [
+        "\u00a76ROSARIUM SOLAR PANEL",
+        "\u00a79Capacity: \u00a7f131.00 GFE",
+        "\u00a7aGeneration: \u00a7f8,388,608 FE/t"
+      ]
+    },
+    "rubetine": {
+      "energyStorage": 8000000,
+      "duration": 100,
+      "energyGeneration": 512,
+      "modifiers": {
+        "weather_resistance": {
+          "generation": 1.0,
+          "efficiency": 1.0,
+          "weatherResistance": 1.17,
+          "tooltip": [
+            "\u00a79Weather Protection: \u00a7f+17%"
+          ]
+        },
+        "efficiency": {
+          "generation": 1.0,
+          "efficiency": 0.98,
+          "weatherResistance": 1.0,
+          "tooltip": [
+            "\u00a7bEfficiency Boost: \u00a7f+2%"
+          ]
+        }
+      },
+      "tooltip": [
+        "\u00a76RUBETINE SOLAR PANEL",
+        "\u00a79Capacity: \u00a7f8.00 MFE",
+        "\u00a7aGeneration: \u00a7f512 FE/t"
+      ]
+    }
+  },
+  "ALLOW_TICK_ACCELERATION_MULTIBLOCKS": false,
+  "UPGRADE_T1_SLOTS": 3,
+  "UPGRADE_T2_SLOTS": 9,
+  "UPGRADE_T3_SLOTS": 27,
+  "COLOR_BLIND_PERCENT": false,
+  "MINER_CHECK_INTERVAL_TICKS": 10,
+  "MINER_CACHE_TTL_TICKS": 200,
+  "MINER_PROGRESS_LOOKAHEAD": 5,
+  "SOLAR_CHECK_INTERVAL_TICKS": 20,
+  "SOLAR_CACHE_TTL_TICKS": 200
+}

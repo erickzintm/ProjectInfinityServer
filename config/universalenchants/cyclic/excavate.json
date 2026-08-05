@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:digger",
+    "ae2:annihilation_plane",
+    "apotheosis:pickaxe_tome",
+    "industrialforegoing:infinity_drill",
+    "industrialforegoing:infinity_saw",
+    "twilightforest:block_and_chain"
+  ],
+  "incompatible": [
+    "cyclic:experience_boost",
+    "endlessbiomes:vwooping"
+  ]
+}

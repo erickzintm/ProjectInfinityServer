@@ -1,0 +1,3 @@
+// Compost colors for mm. You may add your own colors, change existing ones, or remove colors that aren't needed.
+blueprint, #c3e4ff
+debug_tool, #c39aa4

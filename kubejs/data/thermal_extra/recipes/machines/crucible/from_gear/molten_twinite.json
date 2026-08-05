@@ -1,0 +1,19 @@
+{
+    "type": "thermal:crucible",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "thermal_extra"
+        }
+    ],
+    "ingredient": {
+        "tag": "forge:gears/twinite"
+    },
+    "result": [
+        {
+            "fluid": "thermal_extra:twinite",
+            "amount": 360
+        }
+    ],
+    "energy": 20000
+}

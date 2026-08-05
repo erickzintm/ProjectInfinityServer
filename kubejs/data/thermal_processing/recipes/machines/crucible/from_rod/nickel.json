@@ -1,0 +1,13 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "tag": "c:rods/nickel"
+    },
+    "result": [
+        {
+            "fluid": "common_ore_library:molten_nickel",
+            "amount": 90
+        }
+    ],
+    "energy": 5000
+}

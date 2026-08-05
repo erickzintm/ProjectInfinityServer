@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.rose_gold_ingot",
+  "colors": [
+    "ff8585",
+    "1c1c1c"
+  ],
+  "ingredient": {
+    "item": "thermal:rose_gold_ingot"
+  },
+  "materialCount": 25000
+}

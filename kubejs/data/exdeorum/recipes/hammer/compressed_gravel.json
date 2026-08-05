@@ -1,0 +1,19 @@
+{
+    "type": "exdeorum:hammer",
+    "ingredient": [
+        {
+            "item": "compressium:cobblestone_1"
+        },
+        {
+            "item": "compressium:diorite_1"
+        },
+        {
+            "item": "compressium:granite_1"
+        },
+        {
+            "item": "compressium:andesite_1"
+        }
+    ],
+    "result": "compressium:gravel_1",
+    "result_amount": 2.0
+}

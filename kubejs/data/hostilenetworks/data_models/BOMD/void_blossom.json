@@ -1,0 +1,37 @@
+{
+    "entity": "bosses_of_mass_destruction:void_blossom",
+    "variants": [],
+    "name": "entity.bosses_of_mass_destruction.void_blossom",
+    "name_color": "#d203fc",
+    "gui_scale": 0.38,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 50000,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.void_blossom",
+    "fabricator_drops": [
+        {
+            "item": "bosses_of_mass_destruction:void_thorn",
+            "count": 1
+        },
+        {
+            "item": "minecraft:chorus_flower",
+            "count": 64
+        },
+        {
+            "item": "minecraft:oak_sapling",
+            "count": 64
+        },
+        {
+            "item": "bosses_of_mass_destruction:crystal_fruit",
+            "count": 1
+        }
+    ],
+    "tier_data": [3, 54, 354, 1254]
+}

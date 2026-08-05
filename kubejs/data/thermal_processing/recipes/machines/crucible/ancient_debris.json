@@ -1,0 +1,13 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "item": "minecraft:ancient_debris"
+    },
+    "result": [
+        {
+            "fluid": "common_ore_library:molten_scrap",
+            "amount": 180
+        }
+    ],
+    "energy": 10000
+}

@@ -1,0 +1,11 @@
+{
+  "__comment": "Instructions: https://blakesmods.com/docs/cucumber/tags-config",
+  "forge:ingots/mithril": "null",
+  "forge:dusts/saltpeter": "bloodmagic:saltpeter",
+  "forge:silicon": "refinedstorage:silicon",
+  "forge:ingots/chrome": "null",
+  "forge:gems/peridot": "alltheores:peridot",
+  "forge:ingots/titanium": "nuclearcraft:titanium_ingot",
+  "forge:rubber": "thermal:cured_rubber",
+  "forge:dusts/niter": "thermal:niter_dust"
+}

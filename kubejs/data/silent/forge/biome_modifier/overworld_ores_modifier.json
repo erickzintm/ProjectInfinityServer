@@ -1,0 +1,10 @@
+{
+    "type": "forge:add_features",
+    "biomes": "#minecraft:is_overworld",
+    "features": [
+        "silent:arcmetal_ore_placed",
+        "silent:plasteel_ore_placed",
+        "silent:voidmetal_ore_placed"
+    ],
+    "step": "underground_ores"
+}

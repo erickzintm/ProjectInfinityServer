@@ -1,0 +1,14 @@
+
+#Avaritia Expand Common Config
+[block]
+	#The explosion radius of InfinityTNT
+	#Range: 0 ~ 1000
+	"InfinityTNT Radius" = 0
+	#The explosion length of InfinityTNT
+	#Range: -500 ~ 0
+	"InfinityTNT Length" = 0
+	#Can InfinityTNT break bedrock?
+	"InfinityTNT Break BedRock" = false
+	#Can InfinityTNT break obsidian?
+	"InfinityTNT Break Obsidian" = true
+

@@ -1,0 +1,13 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "tag": "c:ores/lead"
+    },
+    "result": [
+        {
+            "fluid": "common_ore_library:molten_lead",
+            "amount": 180
+        }
+    ],
+    "energy": 20000
+}

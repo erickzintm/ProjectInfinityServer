@@ -1,0 +1,270 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "cataclysm"
+        }
+    ],
+    "size": "medium",
+    "color": "#7905a3",
+    "rules": {
+        "allow_discarding": true,
+        "player_damage_only": true
+    },
+    "waves": [
+        {
+            "entities": [
+                {
+                    "entity": "cataclysm:deepling_warlock"
+                },
+                {
+                    "entity": "cataclysm:deepling_warlock"
+                },
+                {
+                    "entity": "cataclysm:deepling_warlock"
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "cataclysm:deepling_warlock",
+                    "rolls": 1
+                }
+            ],
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+        {
+            "entities": [
+                {
+                    "entity": "cataclysm:deepling_warlock"
+                },
+                {
+                    "entity": "cataclysm:deepling_warlock"
+                },
+                {
+                    "entity": "cataclysm:deepling_warlock"
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.33
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 2.5
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.33
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.05
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.05
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "cataclysm:deepling_warlock",
+                    "rolls": 2
+                }
+            ],
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+        {
+            "entities": [
+                {
+                    "entity": "cataclysm:deepling_warlock"
+                },
+                {
+                    "entity": "cataclysm:deepling_warlock"
+                },
+                {
+                    "entity": "cataclysm:deepling_warlock"
+                },
+                {
+                    "entity": "cataclysm:deepling_warlock"
+                },
+                {
+                    "entity": "cataclysm:deepling_warlock"
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.66
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 4
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.5
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.1
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.1
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "cataclysm:deepling_warlock",
+                    "rolls": 3
+                }
+            ],
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+        {
+            "entities": [
+                {
+                    "entity": "cataclysm:deepling_warlock"
+                },
+                {
+                    "entity": "cataclysm:deepling_warlock"
+                },
+                {
+                    "entity": "cataclysm:deepling_warlock"
+                },
+                {
+                    "entity": "cataclysm:deepling_warlock"
+                },
+                {
+                    "entity": "cataclysm:deepling_warlock"
+                },
+                {
+                    "entity": "cataclysm:deepling_warlock"
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.85
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 5
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.66
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.15
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.15
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "cataclysm:deepling_warlock",
+                    "rolls": 4
+                }
+            ],
+            "max_wave_time": 750,
+            "setup_time": 150
+        },
+        {
+            "entities": [
+                {
+                    "entity": "cataclysm:deepling_warlock"
+                },
+                {
+                    "entity": "cataclysm:deepling_warlock"
+                },
+                {
+                    "entity": "cataclysm:deepling_warlock"
+                },
+                {
+                    "entity": "cataclysm:deepling_warlock"
+                },
+                {
+                    "entity": "cataclysm:deepling_warlock"
+                },
+                {
+                    "entity": "cataclysm:deepling_warlock"
+                },
+                {
+                    "entity": "cataclysm:deepling_warlock"
+                }
+            ],
+            "modifiers": [
+                {
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 1.25
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 6
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.85
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.2
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.2
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "gateways:entity_loot",
+                    "entity": "cataclysm:deepling_warlock",
+                    "rolls": 4
+                }
+            ],
+            "max_wave_time": 750,
+            "setup_time": 150
+        }
+    ],
+    "rewards": [
+        {
+            "type": "gateways:entity_loot",
+            "entity": "cataclysm:deepling_warlock",
+            "rolls": 6
+        }
+    ],
+    "completion_xp": 500,
+    "spawn_range": 7
+}

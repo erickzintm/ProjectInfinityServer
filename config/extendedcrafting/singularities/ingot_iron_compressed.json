@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.iron_compressed_ingot",
+  "colors": [
+    "393e40",
+    "787c7d"
+  ],
+  "ingredient": {
+    "item": "pneumaticcraft:ingot_iron_compressed"
+  },
+  "materialCount": 15000
+}

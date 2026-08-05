@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.soul_infused_ingot",
+  "colors": [
+    "96442d",
+    "96442d"
+  ],
+  "ingredient": {
+    "item": "thermal_extra:soul_infused_ingot"
+  },
+  "materialCount": 1500
+}

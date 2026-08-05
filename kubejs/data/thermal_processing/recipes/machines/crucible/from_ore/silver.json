@@ -1,0 +1,13 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "tag": "c:ores/silver"
+    },
+    "result": [
+        {
+            "fluid": "common_ore_library:molten_silver",
+            "amount": 180
+        }
+    ],
+    "energy": 20000
+}

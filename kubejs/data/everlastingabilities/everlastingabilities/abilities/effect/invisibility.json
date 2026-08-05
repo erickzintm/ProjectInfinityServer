@@ -1,0 +1,13 @@
+{
+    "type": "everlastingabilities:effect",
+    "target": "self",
+    "name": "ability.everlastingabilities.invisibility",
+    "rarity": "uncommon",
+    "max_level": 1,
+    "xp_per_level": 20,
+    "obtainable_on_player_spawn": false,
+    "obtainable_on_mob_spawn": false,
+    "obtainable_on_craft": false,
+    "obtainable_on_loot": false,
+    "effect": "minecraft:invisibility"
+}

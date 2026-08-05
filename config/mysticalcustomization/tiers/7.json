@@ -1,0 +1,9 @@
+{
+  "name": "7",
+  "value": 7,
+  "farmland": "mysticalagradditions:insanium_farmland",
+  "essence": "mysticalexpansion:extremium_essence",
+  "fertilizable": false,
+  "secondarySeedDrop": false,
+  "baseSecondaryChance": 0.0
+}

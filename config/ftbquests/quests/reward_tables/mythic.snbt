@@ -1,0 +1,20 @@
+{
+	icon: "minecraft:nether_star"
+	id: "481E10AEAC95C550"
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{ item: "mekanism:pellet_antimatter", weight: 2.0f }
+		{ item: "mysticalagriculture:awakened_supremium_block", random_bonus: 1, weight: 1.5f }
+		{ item: "mysticalagriculture:allthemodium_seeds", weight: 0.05f }
+		{ item: "mysticalagriculture:vibranium_seeds", weight: 0.05f }
+		{ item: "mysticalagriculture:unobtainium_seeds", weight: 0.05f }
+		{ item: "allthemodium:unobtainium_allthemodium_alloy_block", random_bonus: 1, weight: 3.0f }
+		{ item: "mekanism:ultimate_induction_cell", weight: 2.0f }
+		{ item: "mekanism:ultimate_induction_provider", weight: 2.0f }
+		{ item: "botania:dice", weight: 2.0f }
+		{ count: 36, item: "powah:reactor_nitro", weight: 5.0f }
+	]
+	title: "{ftbquests.loot_table.5196609362437981520.title}"
+	use_title: true
+}

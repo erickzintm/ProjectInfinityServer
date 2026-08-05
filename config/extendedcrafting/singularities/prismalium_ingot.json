@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.prismalium_ingot",
+  "colors": [
+    "82bab0",
+    "82bab0"
+  ],
+  "ingredient": {
+    "item": "thermalendergy:prismalium_ingot"
+  },
+  "materialCount": 3000
+}

@@ -1,0 +1,2427 @@
+{
+  "oreMultiplier": 1,
+  "ores": [
+    {
+      "ore_size": 24,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "chance": 2,
+          "type": "minecraft:rarity_filter"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": -64
+            },
+            "max_inclusive": {
+              "absolute": 16
+            },
+            "type": "minecraft:trapezoid"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:stone",
+            "probability": 0.005,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "mekanism:block_raw_uranium"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:deepslate",
+            "probability": 0.03,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "mekanism:block_raw_uranium"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:netherrack",
+            "probability": 0.05,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "mekanism:block_raw_uranium"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:end_stone",
+            "probability": 0.1,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "mekanism:block_raw_uranium"
+          }
+        },
+        {
+          "target": {
+            "tag": "allthemodium:ancient_stone",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "mekanism:block_raw_uranium"
+          }
+        },
+        {
+          "target": {
+            "tag": "allthemodium:ancient_stone",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "mekanism:uranium_ore"
+          }
+        },
+        {
+          "target": {
+            "tag": "minecraft:stone_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "mekanism:uranium_ore"
+          }
+        },
+        {
+          "target": {
+            "tag": "minecraft:deepslate_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "mekanism:deepslate_uranium_ore"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:netherrack",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "alltheores:nether_uranium_ore"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:end_stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "alltheores:end_uranium_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 24,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 3,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": -64
+            },
+            "max_inclusive": {
+              "absolute": 56
+            },
+            "type": "minecraft:trapezoid"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:stone",
+            "probability": 0.005,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "thermal:raw_lead_block"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:deepslate",
+            "probability": 0.03,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "thermal:raw_lead_block"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:netherrack",
+            "probability": 0.05,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "thermal:raw_lead_block"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:end_stone",
+            "probability": 0.1,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "thermal:raw_lead_block"
+          }
+        },
+        {
+          "target": {
+            "tag": "allthemodium:ancient_stone",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "thermal:raw_lead_block"
+          }
+        },
+        {
+          "target": {
+            "tag": "allthemodium:ancient_stone",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "thermal:lead_ore"
+          }
+        },
+        {
+          "target": {
+            "tag": "minecraft:stone_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "thermal:lead_ore"
+          }
+        },
+        {
+          "target": {
+            "tag": "minecraft:deepslate_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "thermal:deepslate_lead_ore"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:netherrack",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "alltheores:nether_lead_ore"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:end_stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "alltheores:end_lead_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 33,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 4,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 27
+            },
+            "max_inclusive": {
+              "absolute": 36
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:netherrack",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "minecraft:magma_block"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 8,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": -10
+            },
+            "max_inclusive": {
+              "absolute": 60
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "count": 3,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "forge:netherrack",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "silentgems:black_diamond_nether_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 24,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 3,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": -64
+            },
+            "max_inclusive": {
+              "absolute": 126
+            },
+            "type": "minecraft:trapezoid"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:stone",
+            "probability": 0.005,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "common_ore_library:zinc_block_block"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:deepslate",
+            "probability": 0.03,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "common_ore_library:zinc_block_block"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:netherrack",
+            "probability": 0.05,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "common_ore_library:zinc_block_block"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:end_stone",
+            "probability": 0.1,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "common_ore_library:zinc_block_block"
+          }
+        },
+        {
+          "target": {
+            "tag": "allthemodium:ancient_stone",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "common_ore_library:zinc_block_block"
+          }
+        },
+        {
+          "target": {
+            "tag": "allthemodium:ancient_stone",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "common_ore_library:zinc_ore"
+          }
+        },
+        {
+          "target": {
+            "tag": "minecraft:stone_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "common_ore_library:zinc_ore"
+          }
+        },
+        {
+          "target": {
+            "tag": "minecraft:deepslate_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "alltheores:deepslate_zinc_ore"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:netherrack",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "alltheores:nether_zinc_ore"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:end_stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "alltheores:end_zinc_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 0,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 128
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "count": 0,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "forge:netherrack",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "silentgems:sapphire_nether_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 32,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "chance": 30,
+          "type": "minecraft:rarity_filter"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 4
+            },
+            "max_inclusive": {
+              "absolute": 16
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "minecraft:base_stone_nether",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "draconicevolution:nether_draconium_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 14,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 2,
+          "type": "minecraft:count"
+        },
+        {
+          "count": 16,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "above_bottom": 10
+            },
+            "max_inclusive": {
+              "below_top": 10
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:netherrack",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "minecraft:nether_quartz_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 0,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 128
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "count": 0,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "forge:netherrack",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "silentgems:ruby_nether_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 0,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 128
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "count": 0,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "forge:netherrack",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "silentgems:peridot_nether_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 8,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 25
+            },
+            "max_inclusive": {
+              "absolute": 110
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "count": 2,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "forge:netherrack",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "silentgems:carnelian_nether_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 4,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 10,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 128
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block_state": {
+              "Name": "minecraft:netherrack"
+            },
+            "predicate_type": "minecraft:blockstate_match"
+          },
+          "state": {
+            "Name": "thermal_processing:nether_platinum_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 24,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 3,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": -64
+            },
+            "max_inclusive": {
+              "absolute": 56
+            },
+            "type": "minecraft:trapezoid"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:stone",
+            "probability": 0.005,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "thermal:raw_silver_block"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:deepslate",
+            "probability": 0.03,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "thermal:raw_silver_block"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:netherrack",
+            "probability": 0.05,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "thermal:raw_silver_block"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:end_stone",
+            "probability": 0.1,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "thermal:raw_silver_block"
+          }
+        },
+        {
+          "target": {
+            "tag": "allthemodium:ancient_stone",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "thermal:raw_silver_block"
+          }
+        },
+        {
+          "target": {
+            "tag": "allthemodium:ancient_stone",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "thermal:silver_ore"
+          }
+        },
+        {
+          "target": {
+            "tag": "minecraft:stone_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "thermal:silver_ore"
+          }
+        },
+        {
+          "target": {
+            "tag": "minecraft:deepslate_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "thermal:deepslate_silver_ore"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:netherrack",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "alltheores:nether_silver_ore"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:end_stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "alltheores:end_silver_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 8,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 20
+            },
+            "max_inclusive": {
+              "absolute": 80
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "count": 2,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "forge:netherrack",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "silentgems:alexandrite_nether_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 0,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 128
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "count": 0,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "forge:netherrack",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "silentgems:ammolite_nether_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 8,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 16,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 10
+            },
+            "max_inclusive": {
+              "absolute": 100
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "minecraft:nether_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "mysticalagradditions:nether_inferium_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 24,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 4,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": -64
+            },
+            "max_inclusive": {
+              "absolute": 320
+            },
+            "type": "minecraft:trapezoid"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:stone",
+            "probability": 0.005,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "common_ore_library:raw_aluminum_block"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:deepslate",
+            "probability": 0.03,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "common_ore_library:raw_aluminum_block"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:netherrack",
+            "probability": 0.05,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "common_ore_library:raw_aluminum_block"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:end_stone",
+            "probability": 0.1,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "common_ore_library:raw_aluminum_block"
+          }
+        },
+        {
+          "target": {
+            "tag": "minecraft:stone_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "common_ore_library:aluminum_ore"
+          }
+        },
+        {
+          "target": {
+            "tag": "allthemodium:ancient_stone",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "common_ore_library:raw_aluminum_block"
+          }
+        },
+        {
+          "target": {
+            "tag": "allthemodium:ancient_stone",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "common_ore_library:aluminum_ore"
+          }
+        },
+        {
+          "target": {
+            "tag": "minecraft:deepslate_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "alltheores:deepslate_aluminum_ore"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:netherrack",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "alltheores:nether_aluminum_ore"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:end_stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "alltheores:end_aluminum_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 0,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 128
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "count": 0,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "forge:netherrack",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "silentgems:rose_quartz_nether_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 8,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 8,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 2
+            },
+            "max_inclusive": {
+              "absolute": 40
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "minecraft:base_stone_nether",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "rftoolsbase:dimensionalshard_nether"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 8,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 20
+            },
+            "max_inclusive": {
+              "absolute": 80
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "count": 2,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "forge:netherrack",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "silentgems:iolite_nether_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 10,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 2,
+          "type": "minecraft:count"
+        },
+        {
+          "count": 10,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "above_bottom": 10
+            },
+            "max_inclusive": {
+              "below_top": 10
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:netherrack",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "minecraft:nether_gold_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 8,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 12,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 10
+            },
+            "max_inclusive": {
+              "absolute": 100
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "minecraft:nether_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "mysticalagradditions:nether_prosperity_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 2,
+      "discard_on_air_chance": 1.0,
+      "modifiers": [
+        {
+          "count": 2,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "above_bottom": 8
+            },
+            "max_inclusive": {
+              "below_top": 8
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "minecraft:base_stone_nether",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "minecraft:ancient_debris"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 4,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 5,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 30
+            },
+            "max_inclusive": {
+              "absolute": 50
+            },
+            "type": "minecraft:trapezoid"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block_state": {
+              "Properties": {
+                "level": "0"
+              },
+              "Name": "minecraft:lava"
+            },
+            "predicate_type": "minecraft:blockstate_match"
+          },
+          "state": {
+            "Name": "kubejs:solarmetal_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 3,
+      "discard_on_air_chance": 1.0,
+      "modifiers": [
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 8
+            },
+            "max_inclusive": {
+              "absolute": 24
+            },
+            "type": "minecraft:trapezoid"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "minecraft:base_stone_nether",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "minecraft:ancient_debris"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 33,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 2,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 5
+            },
+            "max_inclusive": {
+              "absolute": 41
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:netherrack",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "minecraft:gravel"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 8,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 25
+            },
+            "max_inclusive": {
+              "absolute": 110
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "count": 2,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "forge:netherrack",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "silentgems:moldavite_nether_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 0,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 128
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "count": 0,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "forge:netherrack",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "silentgems:kyanite_nether_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 8,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 25
+            },
+            "max_inclusive": {
+              "absolute": 110
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "count": 2,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "forge:netherrack",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "silentgems:citrine_nether_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 0,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 128
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "count": 0,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "forge:netherrack",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "silentgems:heliodor_nether_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 0,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 128
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "count": 0,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "forge:netherrack",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "silentgems:turquoise_nether_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 0,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 128
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "count": 0,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "forge:netherrack",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "silentgems:white_diamond_nether_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 33,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 2,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 5
+            },
+            "max_inclusive": {
+              "absolute": 31
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:netherrack",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "minecraft:blackstone"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 24,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 3,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": -64
+            },
+            "max_inclusive": {
+              "absolute": 36
+            },
+            "type": "minecraft:trapezoid"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:stone",
+            "probability": 0.005,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "mekanism:block_raw_osmium"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:deepslate",
+            "probability": 0.03,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "mekanism:block_raw_osmium"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:netherrack",
+            "probability": 0.05,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "mekanism:block_raw_osmium"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:end_stone",
+            "probability": 0.1,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "mekanism:block_raw_osmium"
+          }
+        },
+        {
+          "target": {
+            "tag": "allthemodium:ancient_stone",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "mekanism:block_raw_osmium"
+          }
+        },
+        {
+          "target": {
+            "tag": "allthemodium:ancient_stone",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "mekanism:osmium_ore"
+          }
+        },
+        {
+          "target": {
+            "tag": "minecraft:stone_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "mekanism:osmium_ore"
+          }
+        },
+        {
+          "target": {
+            "tag": "minecraft:deepslate_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "mekanism:deepslate_osmium_ore"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:netherrack",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "alltheores:nether_osmium_ore"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:end_stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "alltheores:end_osmium_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 24,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 4,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": -64
+            },
+            "max_inclusive": {
+              "absolute": 196
+            },
+            "type": "minecraft:trapezoid"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:stone",
+            "probability": 0.005,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "thermal:raw_tin_block"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:deepslate",
+            "probability": 0.03,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "thermal:raw_tin_block"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:netherrack",
+            "probability": 0.05,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "thermal:raw_tin_block"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:end_stone",
+            "probability": 0.1,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "thermal:raw_tin_block"
+          }
+        },
+        {
+          "target": {
+            "tag": "allthemodium:ancient_stone",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "thermal:raw_tin_block"
+          }
+        },
+        {
+          "target": {
+            "tag": "allthemodium:ancient_stone",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "thermal:tin_ore"
+          }
+        },
+        {
+          "target": {
+            "tag": "minecraft:stone_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "thermal:tin_ore"
+          }
+        },
+        {
+          "target": {
+            "tag": "minecraft:deepslate_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "thermal:deepslate_tin_ore"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:netherrack",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "alltheores:nether_tin_ore"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:end_stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "alltheores:end_tin_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 24,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 3,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": -64
+            },
+            "max_inclusive": {
+              "absolute": 56
+            },
+            "type": "minecraft:trapezoid"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:stone",
+            "probability": 0.005,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "thermal:raw_nickel_block"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:deepslate",
+            "probability": 0.03,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "thermal:raw_nickel_block"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:netherrack",
+            "probability": 0.05,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "thermal:raw_nickel_block"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:end_stone",
+            "probability": 0.1,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "thermal:raw_nickel_block"
+          }
+        },
+        {
+          "target": {
+            "tag": "allthemodium:ancient_stone",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "thermal:raw_nickel_block"
+          }
+        },
+        {
+          "target": {
+            "tag": "allthemodium:ancient_stone",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "thermal:nickel_ore"
+          }
+        },
+        {
+          "target": {
+            "tag": "minecraft:stone_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "thermal:nickel_ore"
+          }
+        },
+        {
+          "target": {
+            "tag": "minecraft:deepslate_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "thermal:deepslate_nickel_ore"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:netherrack",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "alltheores:nether_nickel_ore"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:end_stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "alltheores:end_nickel_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 0,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 128
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "count": 0,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "forge:netherrack",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "silentgems:topaz_nether_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 24,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 1,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": -64
+            },
+            "max_inclusive": {
+              "absolute": 36
+            },
+            "type": "minecraft:trapezoid"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:stone",
+            "probability": 0.005,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "common_ore_library:raw_platinum_block"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:deepslate",
+            "probability": 0.03,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "common_ore_library:raw_platinum_block"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:netherrack",
+            "probability": 0.05,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "common_ore_library:raw_platinum_block"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:end_stone",
+            "probability": 0.1,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "state": {
+            "Name": "common_ore_library:raw_platinum_block"
+          }
+        },
+        {
+          "target": {
+            "tag": "allthemodium:ancient_stone",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "common_ore_library:raw_platinum_block"
+          }
+        },
+        {
+          "target": {
+            "tag": "allthemodium:ancient_stone",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "common_ore_library:platinum_ore"
+          }
+        },
+        {
+          "target": {
+            "tag": "minecraft:stone_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "common_ore_library:platinum_ore"
+          }
+        },
+        {
+          "target": {
+            "tag": "minecraft:deepslate_ore_replaceables",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "nuclearcraft:platinum_deepslate_ore"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:netherrack",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "thermal_processing:nether_platinum_ore"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:end_stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "alltheores:end_platinum_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 12,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 16,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 64
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:netherrack",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "dimensionalpocketsii:block_dimensional_ore_nether"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 10,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 2,
+          "type": "minecraft:count"
+        },
+        {
+          "count": 20,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "above_bottom": 10
+            },
+            "max_inclusive": {
+              "below_top": 10
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:netherrack",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "minecraft:nether_gold_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 14,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 2,
+          "type": "minecraft:count"
+        },
+        {
+          "count": 32,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "above_bottom": 10
+            },
+            "max_inclusive": {
+              "below_top": 10
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:netherrack",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "minecraft:nether_quartz_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 12,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 12,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "above_bottom": 0
+            },
+            "max_inclusive": {
+              "absolute": 31
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:netherrack",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "minecraft:soul_sand"
+          }
+        }
+      ]
+    }
+  ]
+}

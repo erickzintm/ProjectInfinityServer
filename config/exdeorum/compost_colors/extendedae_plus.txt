@@ -1,0 +1,4 @@
+// Compost colors for extendedae_plus. You may add your own colors, change existing ones, or remove colors that aren't needed.
+channel_card, #c5987f
+entity_speed_card, #ffe6eb
+infinity_biginteger_cell, #9170e6

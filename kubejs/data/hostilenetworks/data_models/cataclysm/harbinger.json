@@ -1,0 +1,25 @@
+{
+    "entity": "cataclysm:the_harbinger",
+    "variants": [],
+    "name": "entity.cataclysm.the_harbinger",
+    "name_color": "#c72b08",
+    "gui_scale": 0.7,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 50000,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:nether_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.the_harbinger",
+    "fabricator_drops": [
+        {
+            "item": "cataclysm:witherite_ingot",
+            "count": 4
+        }
+    ],
+    "tier_data": [3, 54, 354, 1254]
+}

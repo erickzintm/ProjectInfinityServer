@@ -1,0 +1,13 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "tag": "c:gears/tungsten"
+    },
+    "result": [
+        {
+            "fluid": "common_ore_library:molten_tungsten",
+            "amount": 360
+        }
+    ],
+    "energy": 20000
+}

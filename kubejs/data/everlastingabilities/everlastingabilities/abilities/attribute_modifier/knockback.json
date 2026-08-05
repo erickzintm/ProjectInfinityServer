@@ -1,0 +1,14 @@
+{
+    "type": "everlastingabilities:attribute_modifier",
+    "name": "ability.everlastingabilities.knockback",
+    "rarity": "uncommon",
+    "max_level": 5,
+    "xp_per_level": 30,
+    "attribute": "generic.attack_knockback",
+    "amount_factor": 1,
+    "obtainable_on_player_spawn": false,
+    "obtainable_on_mob_spawn": false,
+    "obtainable_on_craft": false,
+    "obtainable_on_loot": false,
+    "operation": "add_value"
+}

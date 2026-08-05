@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:trident",
+    "apotheosis:other_tome",
+    "industrialforegoing:infinity_trident",
+    "cataclysm:coral_spear",
+    "cataclysm:coral_bardiche",
+    "$minecraft:weapon",
+    "$minecraft:universal_enchants_axe"
+  ],
+  "incompatible": [
+    "minecraft:smite",
+    "minecraft:bane_of_arthropods",
+    "endlessbiomes:vwooping",
+    "apotheosis:bane_of_illagers"
+  ]
+}

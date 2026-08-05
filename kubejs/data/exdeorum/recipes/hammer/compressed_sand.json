@@ -1,0 +1,8 @@
+{
+    "type": "exdeorum:hammer",
+    "ingredient": {
+        "item": "compressium:gravel_1"
+    },
+    "result": "compressium:sand_1",
+    "result_amount": 2.0
+}

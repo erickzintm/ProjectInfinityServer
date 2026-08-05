@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.sky_steel_ingot",
+  "colors": [
+    "242424",
+    "242424"
+  ],
+  "ingredient": {
+    "item": "megacells:sky_steel_ingot"
+  },
+  "materialCount": 25000
+}

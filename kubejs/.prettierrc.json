@@ -1,0 +1,27 @@
+{
+    "semi": true,
+    "tabWidth": 2,
+    "useTabs": false,
+    "trailingComma": "es5",
+    "bracketSpacing": true,
+    "bracketSameLine": false,
+    "printWidth": 80,
+    "endOfLine": "lf",
+    "overrides": [
+        {
+            "files": ["*.js"],
+            "options": {
+                "tabWidth": 2,
+                "singleQuote": true,
+                "arrowParens": "always"
+            }
+        },
+        {
+            "files": ["*.json", ".prettierrc"],
+            "options": {
+                "tabWidth": 4,
+                "singleQuote": false
+            }
+        }
+    ]
+}

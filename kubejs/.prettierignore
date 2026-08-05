@@ -1,0 +1,25 @@
+# Prettier ignore file for KubeJS
+# Ignore build outputs and generated files
+build/
+dist/
+*.min.js
+
+# Ignore node_modules if present
+node_modules/
+
+# Ignore specific file types that shouldn't be formatted
+*.md
+*.txt
+*.dat
+*.toml
+*.json5
+
+# Ignore assets that might be binary or have special formatting
+assets/
+
+# Ignore essenceforge_layout because its destroying the multiblock. lit and false needs to be double quotes
+#              property: "lit",
+#              value: "false",
+server_scripts/masterfull_machinery/essenceforge/essenceforge_layout.js
+# Ignore this file because its destroying the recipe for ether gas from piglich
+server_scripts/industrialforegoing/add.js

@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.manyullyn_ingot",
+  "colors": [
+    "8c54eb",
+    "8c54eb"
+  ],
+  "ingredient": {
+    "item": "common_ore_library:manyullyn_ingot"
+  },
+  "materialCount": 20000
+}

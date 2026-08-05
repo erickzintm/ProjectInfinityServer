@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.osmium_ingot",
+  "colors": [
+    "d9d9d9",
+    "c4c2c2"
+  ],
+  "ingredient": {
+    "item": "mekanism:ingot_osmium"
+  },
+  "materialCount": 25000
+}

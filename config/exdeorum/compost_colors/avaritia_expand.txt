@@ -1,0 +1,18 @@
+// Compost colors for avaritia_expand. You may add your own colors, change existing ones, or remove colors that aren't needed.
+blaze_boots, #fff56f
+blaze_bow, #ffe04b
+blaze_chestplate, #ffff8e
+blaze_helmet, #ffff76
+blaze_leggings, #ffee65
+blaze_nugget, #ff915c
+clone_core, #7a7878
+crystal_boots, #8ae7d4
+crystal_bow, #73758d
+crystal_chestplate, #82ded0
+crystal_helmet, #89d7c6
+crystal_leggings, #8ce7d6
+crystal_nugget, #ffffff
+endest_watch, #6f8789
+infinity_experience_bottle, #bba58e
+infinity_fishing_rod, #83b1be
+neutron_shears, #464750

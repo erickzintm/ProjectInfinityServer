@@ -1,0 +1,45 @@
+
+#More Thermal Evaporation Settings
+[Tier]
+
+	[Tier.Basic]
+		#Settings for the Basic Tier
+		#Amount of output fluid (mB) that the Basic Evaporation Plant can store.
+		#Range: 1 ~ 2147483646
+		BasicEvaporationOutputTankCapacity = 20000
+		#Buildable Height (in blocks) for the Basic Evaporation Plant.
+		#Range: 18 ~ 36
+		BasicEvaporationPlantHeight = 18
+
+	[Tier.Advanced]
+		#Settings for the Advanced Tier
+		#Amount of output fluid (mB) that the Advanced Evaporation Plant can store.
+		#Range: 1 ~ 2147483646
+		AdvancedEvaporationOutputTankCapacity = 80000
+		#Buildable Height (in blocks) for the Advanced Evaporation Plant.
+		#Range: 18 ~ 72
+		AdvancedEvaporationPlantHeight = 18
+
+	[Tier.Elite]
+		#Settings for the Elite Tier
+		#Amount of output fluid (mB) that the Elite Evaporation Plant can store.
+		#Range: 1 ~ 2147483646
+		EliteEvaporationOutputTankCapacity = 640000
+		#Buildable Height (in blocks) for the Elite Evaporation Plant.
+		#Range: 18 ~ 144
+		EliteEvaporationPlantHeight = 18
+
+	[Tier.Ultimate]
+		#Settings for the Ultimate Tier
+		#Amount of output fluid (mB) that the Ultimate Evaporation Plant can store.
+		#Range: 1 ~ 2147483646
+		UltimateEvaporationOutputTankCapacity = 10240000
+		#Buildable Height (in blocks) for the Ultimate Evaporation Plant.
+		#Range: 18 ~ 288
+		UltimateEvaporationPlantHeight = 18
+
+[Render]
+	#Settings for the Render fluid
+	#Render fluid inside of Thermal Evaporation Plants.
+	RenderFluid = true
+

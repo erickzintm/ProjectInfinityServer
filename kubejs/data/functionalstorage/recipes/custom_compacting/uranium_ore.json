@@ -1,0 +1,11 @@
+{
+    "type": "functionalstorage:custom_compacting",
+    "higher_input": {
+        "count": 1,
+        "item": "mekanism:uranium_ore"
+    },
+    "lower_input": {
+        "count": 4,
+        "item": "exdeorum:uranium_ore_chunk"
+    }
+}

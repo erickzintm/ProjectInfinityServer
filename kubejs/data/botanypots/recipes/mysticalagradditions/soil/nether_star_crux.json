@@ -1,0 +1,11 @@
+{
+    "type": "botanypots:soil",
+    "input": {
+        "item": "mysticalagradditions:nether_star_crux"
+    },
+    "display": {
+        "block": "mysticalagradditions:nether_star_crux"
+    },
+    "categories": ["nether_star_crux"],
+    "growthModifier": 1.66
+}

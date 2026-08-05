@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:crossbow",
+    "apotheosis:other_tome",
+    "$minecraft:bow"
+  ],
+  "incompatible": [
+    "endlessbiomes:vwooping"
+  ]
+}

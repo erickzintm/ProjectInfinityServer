@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:axe",
+    "apotheosis:other_tome",
+    "industrialforegoing:infinity_saw",
+    "twilightforest:block_and_chain"
+  ],
+  "incompatible": [
+    "endlessbiomes:vwooping"
+  ]
+}

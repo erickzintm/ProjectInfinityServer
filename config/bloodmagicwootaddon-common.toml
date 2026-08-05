@@ -1,0 +1,6 @@
+
+#Addon
+[addon]
+	#The life essence cost per kill for the blood collector upgrade [Default: 10]
+	bloodCollectorCost = 10
+

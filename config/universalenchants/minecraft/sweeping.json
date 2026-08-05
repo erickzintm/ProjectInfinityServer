@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:weapon",
+    "apotheosis:weapon_tome",
+    "industrialforegoing:infinity_hammer",
+    "cataclysm:the_incinerator",
+    "cataclysm:ancient_spear",
+    "draconicevolution:draconic_staff",
+    "draconicevolution:chaotic_staff",
+    "redstone_arsenal:flux_sickle",
+    "actuallyadditions:wooden_aiot",
+    "actuallyadditions:stone_aiot",
+    "actuallyadditions:iron_aiot",
+    "actuallyadditions:gold_aiot",
+    "actuallyadditions:diamond_aiot",
+    "actuallyadditions:netherite_aiot",
+    "$minecraft:universal_enchants_axe",
+    "$minecraft:trident"
+  ],
+  "incompatible": [
+    "endlessbiomes:vwooping"
+  ]
+}

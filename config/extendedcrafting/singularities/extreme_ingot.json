@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.extreme_ingot",
+  "colors": [
+    "360522",
+    "2e011c"
+  ],
+  "ingredient": {
+    "item": "nuclearcraft:extreme_ingot"
+  },
+  "materialCount": 5000
+}

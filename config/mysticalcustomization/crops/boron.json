@@ -1,0 +1,16 @@
+{
+    "name": "Boron",
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:3",
+    "ingredient": {
+      "tag": "forge:ingots/boron"
+    },
+    "color": "53565c",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot"
+    },
+    "recipes": {
+      "infusion": false // the infusion altar recipe for the seed
+    }
+  }

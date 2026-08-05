@@ -1,0 +1,16 @@
+  {
+  "name": "Cognizant Dust",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:3",
+  "ingredient": {
+    "item": "mysticalagriculture:cognizant_dust"
+  },
+  "color": "cf8715",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_dust",
+    "essence": "mysticalagriculture:item/essence_dust"
+    },
+    "recipes": {
+      "infusion": false // the infusion altar recipe for the seed
+    }
+  }

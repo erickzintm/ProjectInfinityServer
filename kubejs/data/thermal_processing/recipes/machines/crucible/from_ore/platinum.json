@@ -1,0 +1,13 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "tag": "c:ores/platinum"
+    },
+    "result": [
+        {
+            "fluid": "common_ore_library:molten_platinum",
+            "amount": 180
+        }
+    ],
+    "energy": 20000
+}

@@ -1,0 +1,150 @@
+{
+  // The default offset from 0, 0 to generate the islands
+  // Can be used to generate them in the middle of .mca files
+  // This applies on top of the "offset" defined in each template
+  "defaultOffset": 0,
+  
+  // The template which will be used for spawn only
+  // Example: 
+  // {
+  //     "name": "default",
+  //     "desc": "",
+  //     "file": "default.nbt",
+  //     "spawns": "default",
+  //     "offset": [ 0, 0, 0 ],
+  //     "surroundingMargin": 0,
+  //     "surroundingBlocks": "default"
+  // }
+  "spawn": null,
+  
+  "spawns": {
+    "default": {
+      "south": [
+        [ 6, 3, 5 ]
+      ],
+      "north": [],
+      "west": [],
+      "east": []
+    },
+    "crossroads": {
+      "north": [],
+      "east": [
+        [ 2, 4, 8 ]
+      ],
+      "south": [],
+      "west": []
+    },
+    "fast_ae2_start": {
+      "north": [
+        [ 3, 3, 6 ]
+      ],
+      "east": [],
+      "south": [],
+      "west": []
+    },
+    "floating_castle": {
+      "north": [],
+      "east": [],
+      "south": [],
+      "west": [
+        [ 9, 1, 8 ]
+      ]
+    },
+    "just_a_tree": {
+      "north": [
+        [ 2, 8, 2 ]
+      ],
+      "east": [],
+      "south": [],
+      "west": []
+    },
+    "house_tree": {
+      "north": [],
+      "east": [],
+      "south": [
+        [ 3, 2, 3 ]
+      ],
+      "west": []
+    },
+    "claustrophobia": {
+      "north": [],
+      "east": [],
+      "south": [
+        [ 2, 1, 1 ]
+      ],
+      "west": []
+    }
+  },
+  
+  // A list of file names for templates which should spread around an island
+  // Instead of "minOffset" and "maxOffset" with same values, you could also just use "offset".
+  // "origin" defines from where the offset will be used. Possible values are "zero" and "center", where "zero" is default.
+  // Example: 
+  // {
+  //     "file": "default.nbt",
+  //     "minOffset": [ -6, 3, 5 ],
+  //     "maxOffset": [ 4, 10, 3 ],
+  //     "origin": "center"
+  // }
+  "spreads": {
+    "default": []
+  },
+  
+  // A list of blocks which can be used to surround islands/caves.
+  "surroundingBlocks": {
+    "default": []
+  },
+  
+  // The list of templates being available. The first entry is the default template.
+  "templates": [
+    {
+      "name": "A Typical Skyblock",
+      "desc": "Nothing to see here, just a normal island.",
+      "file": "default.nbt",
+      "spawns": "default",
+      "offset": [ -4, 0, -3 ]
+    },
+    {
+      "name": "Crossroads",
+      "desc": "All roads lead to the tree.",
+      "file": "crossroads.nbt",
+      "spawns": "crossroads",
+      "offset": [ -8, 0, -8 ]
+    },
+    {
+      "name": "Fast AE2 start",
+      "desc": "Want a fast start ? Here, have a little AE2 setup. (Item and Fluid Storage Cell included)",
+      "file": "fast_ae2_start.nbt",
+      "spawns": "fast_ae2_start",
+      "offset": [ -3, 0, -9 ]
+    },
+    {
+      "name": "Floating Castle",
+      "desc": "Pretty self-explanatory.",
+      "file": "floating_castle.nbt",
+      "spawns": "floating_castle",
+      "offset": [ -6, 0, -5 ]
+    },
+    {
+      "name": "Just a Tree",
+      "desc": "I'm sure you weren't expecting that one ! Be careful, there is only 1 Dirt block.",
+      "file": "just_a_tree.nbt",
+      "spawns": "just_a_tree",
+      "offset": [ -2, 0, -2 ]
+    },
+    {
+      "name": "Tree House",
+      "desc": "Ever wanted to make one with nature ? Well we didn't find a way for you but your house sure can !",
+      "file": "house_tree.nbt",
+      "spawns": "house_tree",
+      "offset": [ -3, 0, -3 ]
+    },
+    {
+      "name": "Claustrophobia",
+      "desc": "Tiny space, big dreams !",
+      "file": "claustrophobia.nbt",
+      "spawns": "claustrophobia",
+      "offset": [ -2, 0, -2 ]
+    }
+  ]
+}

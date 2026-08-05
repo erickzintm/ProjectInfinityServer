@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.enhanced_iron_ingot",
+  "colors": [
+    "9f6bed",
+    "5c5c58"
+  ],
+  "ingredient": {
+    "item": "armorplus:en_iron"
+  },
+  "materialCount": 20000
+}

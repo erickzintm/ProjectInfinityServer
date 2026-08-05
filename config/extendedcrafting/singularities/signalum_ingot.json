@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.signalum_ingot",
+  "colors": [
+    "ff8000",
+    "f71919"
+  ],
+  "ingredient": {
+    "item": "thermal:signalum_ingot"
+  },
+  "materialCount": 6000
+}

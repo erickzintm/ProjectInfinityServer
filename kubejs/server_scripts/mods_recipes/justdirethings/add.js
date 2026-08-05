@@ -1,0 +1,291 @@
+ServerEvents.recipes((event) => {
+  shapeless(
+    event,
+    Item.of(
+      'patchouli:guide_book',
+      '{"patchouli:book":"justdirethings:justdirethingsbook"}'
+    ),
+    ['justdirethings:ferricore_ingot', 'minecraft:book']
+  );
+  create3x3(event, 'justdirethings:totem_of_death_recall', [
+    'justdirethings:blazegold_ingot',
+    'minecraft:nether_star',
+    'justdirethings:eclipsealloy_ingot',
+    'minecraft:netherite_ingot',
+    'minecraft:totem_of_undying',
+    'minecraft:netherite_ingot',
+    'justdirethings:eclipsealloy_ingot',
+    'minecraft:nether_star',
+    'justdirethings:blazegold_ingot',
+  ]);
+  create3x3(event, 'justdirethings:time_wand', [
+    'justdirethings:time_crystal',
+    'mekanism_extras:alloy_spectrum',
+    'justdirethings:time_crystal',
+    'evolvedmekanism:alloy_exoversal',
+    'extendedcrafting:ultimate_singularity',
+    'evolvedmekanism:alloy_exoversal',
+    'justdirethings:time_crystal',
+    'mekanism_extras:alloy_spectrum',
+    'justdirethings:time_crystal',
+  ]);
+  create3x3(event, 'justdirethings:upgrade_deathprotection', [
+    'justdirethings:time_crystal',
+    'minecraft:emerald',
+    'justdirethings:time_crystal',
+    'justdirethings:totem_of_death_recall',
+    'justdirethings:upgrade_blank',
+    'justdirethings:totem_of_death_recall',
+    'justdirethings:time_crystal',
+    'minecraft:emerald',
+    'justdirethings:time_crystal',
+  ]);
+  create3x3(event, 'justdirethings:upgrade_flight', [
+    'kubejs:infinity_4',
+    'minecraft:end_crystal',
+    'kubejs:infinity_4',
+    'avaritia:crystal_matrix_ingot',
+    'justdirethings:time_crystal',
+    'avaritia:crystal_matrix_ingot',
+    'kubejs:infinity_4',
+    'minecraft:end_crystal',
+    'kubejs:infinity_4',
+  ]);
+  create3x3(event, 'justdirethings:upgrade_glowing', [
+    'minecraft:sculk_shrieker',
+    'evolvedmekanism:ingot_better_gold',
+    'minecraft:calibrated_sculk_sensor',
+    'mekanism_extras:alloy_spectrum',
+    'justdirethings:time_crystal',
+    'evolvedmekanism:alloy_exoversal',
+    'minecraft:calibrated_sculk_sensor',
+    'evolvedmekanism:ingot_better_gold',
+    'minecraft:sculk_shrieker',
+  ]);
+  create3x3(event, 'justdirethings:upgrade_orexray', [
+    'justdirethings:time_crystal',
+    'evolvedmekanism:ingot_better_gold',
+    'justdirethings:time_crystal',
+    'mekanism_extras:alloy_spectrum',
+    'justdirethings:upgrade_blank',
+    'evolvedmekanism:alloy_exoversal',
+    'justdirethings:time_crystal',
+    'evolvedmekanism:ingot_better_gold',
+    'justdirethings:time_crystal',
+  ]);
+  create3x3(event, 'justdirethings:upgrade_instabreak', [
+    'justdirethings:time_crystal',
+    'evolvedmekanism:ingot_better_gold',
+    'justdirethings:time_crystal',
+    'mekanism_extras:alloy_spectrum',
+    'extendedcrafting:nether_star_block',
+    'evolvedmekanism:alloy_exoversal',
+    'justdirethings:time_crystal',
+    'evolvedmekanism:ingot_better_gold',
+    'justdirethings:time_crystal',
+  ]);
+  create3x3(event, 'justdirethings:upgrade_noai', [
+    'justdirethings:time_crystal',
+    'evolvedmekanism:ingot_better_gold',
+    'justdirethings:time_crystal',
+    'mekanism_extras:alloy_spectrum',
+    'draconicevolution:small_chaos_frag',
+    'evolvedmekanism:alloy_exoversal',
+    'justdirethings:time_crystal',
+    'evolvedmekanism:ingot_better_gold',
+    'justdirethings:time_crystal',
+  ]);
+  create3x3(event, 'justdirethings:upgrade_time_protection', [
+    'justdirethings:time_crystal',
+    'evolvedmekanism:ingot_better_gold',
+    'justdirethings:time_crystal',
+    'evolvedmekanism:alloy_exoversal',
+    'justdirethings:eclipsealloy_block',
+    'mekanism_extras:alloy_spectrum',
+    'justdirethings:time_crystal',
+    'evolvedmekanism:ingot_better_gold',
+    'justdirethings:time_crystal',
+  ]);
+  create3x3(event, 'justdirethings:upgrade_homing', [
+    'minecraft:ender_eye',
+    'thermal:enderium_ingot',
+    'mekanism_extras:alloy_radiance',
+    'draconicevolution:draconium_ingot',
+    'justdirethings:upgrade_blank',
+    'draconicevolution:draconium_ingot',
+    'mekanism_extras:alloy_radiance',
+    'thermal:enderium_ingot',
+    'minecraft:ender_eye',
+  ]);
+  create3x3(event, 'justdirethings:upgrade_phase', [
+    'minecraft:dragon_breath',
+    'thermal_extra:shellite_plate',
+    'kubejs:voidmetal_ingot',
+    'kubejs:starmetal_ingot',
+    'pneumaticcraft:jet_boots_upgrade_4',
+    'kubejs:starmetal_ingot',
+    'kubejs:solarmetal_ingot',
+    'thermal_extra:shellite_plate',
+    'minecraft:dragon_breath',
+  ]);
+  create3x3(event, 'justdirethings:upgrade_epicarrow', [
+    'powah:nitro_crystal_block',
+    'extendedcrafting:enhanced_ender_ingot',
+    'nuclearcraft:palladium_ingot',
+    'kubejs:azure_electrum_ingot',
+    'justdirethings:upgrade_blank',
+    'kubejs:azure_electrum_ingot',
+    'nuclearcraft:palladium_ingot',
+    'extendedcrafting:enhanced_ender_ingot',
+    'powah:nitro_crystal_block',
+  ]);
+  create3x3(event, 'justdirethings:eclipsealloy_helmet', [
+    'justdirethings:eclipsealloy_ingot',
+    'justdirethings:eclipsealloy_ingot',
+    'justdirethings:eclipsealloy_ingot',
+    'justdirethings:eclipsealloy_ingot',
+    'kubejs:infinity_1',
+    'justdirethings:eclipsealloy_ingot',
+    'minecraft:air',
+    'minecraft:air',
+    'minecraft:air',
+  ]);
+  create3x3(event, 'justdirethings:eclipsealloy_leggings', [
+    'justdirethings:eclipsealloy_ingot',
+    'justdirethings:eclipsealloy_ingot',
+    'justdirethings:eclipsealloy_ingot',
+    'justdirethings:eclipsealloy_ingot',
+    'kubejs:infinity_1',
+    'justdirethings:eclipsealloy_ingot',
+    'justdirethings:eclipsealloy_ingot',
+    'minecraft:air',
+    'justdirethings:eclipsealloy_ingot',
+  ]);
+  create3x3(event, 'justdirethings:eclipsealloy_chestplate', [
+    'justdirethings:eclipsealloy_ingot',
+    'kubejs:infinity_1',
+    'justdirethings:eclipsealloy_ingot',
+    'justdirethings:eclipsealloy_ingot',
+    'justdirethings:eclipsealloy_ingot',
+    'justdirethings:eclipsealloy_ingot',
+    'justdirethings:eclipsealloy_ingot',
+    'justdirethings:eclipsealloy_ingot',
+    'justdirethings:eclipsealloy_ingot',
+  ]);
+  create3x3(event, 'justdirethings:eclipsealloy_boots', [
+    'justdirethings:eclipsealloy_ingot',
+    'kubejs:infinity_1',
+    'justdirethings:eclipsealloy_ingot',
+    'justdirethings:eclipsealloy_ingot',
+    'minecraft:air',
+    'justdirethings:eclipsealloy_ingot',
+    'minecraft:air',
+    'minecraft:air',
+    'minecraft:air',
+  ]);
+  create3x3(event, 'justdirethings:bow_eclipsealloy', [
+    'minecraft:string',
+    'justdirethings:eclipsealloy_ingot',
+    'minecraft:air',
+    'minecraft:string',
+    'kubejs:infinity_1',
+    'justdirethings:eclipsealloy_ingot',
+    'minecraft:string',
+    'justdirethings:eclipsealloy_ingot',
+    'minecraft:air',
+  ]);
+  create3x3(event, 'justdirethings:eclipsealloy_sword', [
+    'minecraft:air',
+    'justdirethings:eclipsealloy_ingot',
+    'minecraft:air',
+    'minecraft:air',
+    'justdirethings:eclipsealloy_ingot',
+    'kubejs:infinity_1',
+    'minecraft:air',
+    'minecraft:stick',
+    'minecraft:air',
+  ]);
+  create3x3(event, 'justdirethings:eclipsealloy_pickaxe', [
+    'justdirethings:eclipsealloy_ingot',
+    'justdirethings:eclipsealloy_ingot',
+    'justdirethings:eclipsealloy_ingot',
+    'minecraft:air',
+    'minecraft:stick',
+    'kubejs:infinity_1',
+    'minecraft:air',
+    'minecraft:stick',
+    'minecraft:air',
+  ]);
+  create3x3(event, 'justdirethings:eclipsealloy_shovel', [
+    'kubejs:infinity_1',
+    'justdirethings:eclipsealloy_ingot',
+    'minecraft:air',
+    'minecraft:air',
+    'minecraft:stick',
+    'minecraft:air',
+    'minecraft:air',
+    'minecraft:stick',
+    'minecraft:air',
+  ]);
+  create3x3(event, 'justdirethings:eclipsealloy_axe', [
+    'justdirethings:eclipsealloy_ingot',
+    'justdirethings:eclipsealloy_ingot',
+    'minecraft:air',
+    'justdirethings:eclipsealloy_ingot',
+    'minecraft:stick',
+    'kubejs:infinity_1',
+    'minecraft:air',
+    'minecraft:stick',
+    'minecraft:air',
+  ]);
+  create3x3(event, 'justdirethings:eclipsealloy_hoe', [
+    'justdirethings:eclipsealloy_ingot',
+    'justdirethings:eclipsealloy_ingot',
+    'minecraft:air',
+    'minecraft:air',
+    'minecraft:stick',
+    'kubejs:infinity_1',
+    'minecraft:air',
+    'minecraft:stick',
+    'minecraft:air',
+  ]);
+});
+
+ServerEvents.recipes((event) => {
+  event
+    .custom({
+      type: 'justdirethings:goospread',
+      craftingDuration: 4800,
+      id: 'justdirethings:kubejs_10_to_10_1',
+      input: { Name: 'kubejs:infinity_10_block' },
+      output: { Name: 'kubejs:infinity_10_1_block' },
+      tierRequirement: 2,
+    })
+    .id('justdirethings:kubejs_10_to_10_1');
+});
+
+ServerEvents.recipes((event) => {
+  event
+    .custom({
+      type: 'justdirethings:goospread',
+      craftingDuration: 3600,
+      id: 'justdirethings:kubejs_10_1_to_10_2',
+      input: { Name: 'kubejs:infinity_10_1_block' },
+      output: { Name: 'kubejs:infinity_10_2_block' },
+      tierRequirement: 3,
+    })
+    .id('justdirethings:kubejs_10_1_to_10_2');
+});
+
+ServerEvents.recipes((event) => {
+  event
+    .custom({
+      type: 'justdirethings:goospread',
+      craftingDuration: 2400,
+      id: 'justdirethings:kubejs_10_2_to_11',
+      input: { Name: 'kubejs:infinity_10_2_block' },
+      output: { Name: 'kubejs:unfiltered_infinity_11_block' },
+      tierRequirement: 4,
+    })
+    .id('justdirethings:kubejs_10_2_to_11');
+});

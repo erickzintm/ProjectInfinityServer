@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.awakened_draconium_ingot",
+  "colors": [
+    "ffa600",
+    "a36a00"
+  ],
+  "ingredient": {
+    "item": "draconicevolution:awakened_draconium_ingot"
+  },
+  "materialCount": 5000
+}

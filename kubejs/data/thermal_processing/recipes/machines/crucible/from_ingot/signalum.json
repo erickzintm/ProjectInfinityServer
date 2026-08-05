@@ -1,0 +1,13 @@
+{
+    "type": "thermal:crucible",
+    "ingredient": {
+        "tag": "c:ingots/signalum"
+    },
+    "result": [
+        {
+            "fluid": "thermal_processing:molten_signalum",
+            "amount": 90
+        }
+    ],
+    "energy": 5000
+}

@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.enhanced_gold_ingot",
+  "colors": [
+    "ffff00",
+    "737300"
+  ],
+  "ingredient": {
+    "item": "armorplus:en_gold"
+  },
+  "materialCount": 20000
+}

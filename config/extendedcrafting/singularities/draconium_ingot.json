@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.draconium_ingot",
+  "colors": [
+    "320070",
+    "320070"
+  ],
+  "ingredient": {
+    "item": "draconicevolution:draconium_ingot"
+  },
+  "materialCount": 7500
+}

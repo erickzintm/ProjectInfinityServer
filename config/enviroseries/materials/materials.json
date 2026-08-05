@@ -1,0 +1,92 @@
+{
+  "ma:creative_tabs": {
+    "bo:enabled": true
+  },
+  "ma:white_alabaster": {
+    "bo:enabled": true
+  },
+  "ma:orange_alabaster": {
+    "bo:enabled": true
+  },
+  "ma:magenta_alabaster": {
+    "bo:enabled": true
+  },
+  "ma:light_blue_alabaster": {
+    "bo:enabled": true
+  },
+  "ma:yellow_alabaster": {
+    "bo:enabled": true
+  },
+  "ma:lime_alabaster": {
+    "bo:enabled": true
+  },
+  "ma:pink_alabaster": {
+    "bo:enabled": true
+  },
+  "ma:gray_alabaster": {
+    "bo:enabled": true
+  },
+  "ma:light_gray_alabaster": {
+    "bo:enabled": true
+  },
+  "ma:cyan_alabaster": {
+    "bo:enabled": true
+  },
+  "ma:purple_alabaster": {
+    "bo:enabled": true
+  },
+  "ma:blue_alabaster": {
+    "bo:enabled": true
+  },
+  "ma:brown_alabaster": {
+    "bo:enabled": true
+  },
+  "ma:green_alabaster": {
+    "bo:enabled": true
+  },
+  "ma:red_alabaster": {
+    "bo:enabled": true
+  },
+  "ma:black_alabaster": {
+    "bo:enabled": true
+  },
+  "ma:basalt": {
+    "bo:enabled": true
+  },
+  "ma:hardened_stone": {
+    "bo:enabled": true
+  },
+  "ma:granodiorite": {
+    "bo:enabled": true
+  },
+  "ma:marble": {
+    "bo:enabled": true
+  },
+  "ma:pumice": {
+    "bo:enabled": true
+  },
+  "ma:travertine": {
+    "bo:enabled": true
+  },
+  "ma:taconite": {
+    "bo:enabled": true
+  },
+  "ma:blueschist": {
+    "bo:enabled": true
+  },
+  "ma:greenschist": {
+    "bo:enabled": true
+  },
+  "ma:borderless_glass": {
+    "bo:enabled": true
+  },
+  "ma:borderless_glass_pane": {
+    "bo:enabled": true
+  },
+  "ma:smooth_glass": {
+    "bo:enabled": true
+  },
+  "ma:smooth_glass_pane": {
+    "bo:enabled": true
+  }
+}

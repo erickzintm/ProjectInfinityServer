@@ -1,0 +1,37 @@
+{
+    "entity": "bosses_of_mass_destruction:gauntlet",
+    "variants": [],
+    "name": "entity.bosses_of_mass_destruction.gauntlet",
+    "name_color": "#fc0303",
+    "gui_scale": 0.6,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 50000,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:nether_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.gauntlet",
+    "fabricator_drops": [
+        {
+            "item": "bosses_of_mass_destruction:blazing_eye",
+            "count": 1
+        },
+        {
+            "item": "minecraft:obsidian",
+            "count": 16
+        },
+        {
+            "item": "minecraft:crying_obsidian",
+            "count": 16
+        },
+        {
+            "item": "minecraft:ancient_debris",
+            "count": 1
+        }
+    ],
+    "tier_data": [3, 54, 354, 1254]
+}
