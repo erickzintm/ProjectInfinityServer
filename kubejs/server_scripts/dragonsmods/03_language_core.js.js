@@ -11,28 +11,19 @@
 function hasChosenLanguage(player) {
   const lang = player.persistentData.getString('dragonsmods_language')
 
-  return (
-    lang === 'pt_br' ||
-    lang === 'en_us' ||
-    lang === 'es_es'
-  )
+  return global.DRAGONSMODS_CONFIG.language.supported.includes(lang)
 }
-
 
 // Retorna o idioma atual
 function getLanguage(player) {
   const lang = player.persistentData.getString('dragonsmods_language')
 
-  if (
-    lang === 'pt_br' ||
-    lang === 'en_us' ||
-    lang === 'es_es'
-  ) {
+  if (global.DRAGONSMODS_CONFIG.language.supported.includes(lang)) {
     return lang
   }
 
   // Português como fallback
-  return 'pt_br'
+  return global.DRAGONSMODS_CONFIG.language.default
 }
 
 
@@ -41,6 +32,10 @@ function setLanguage(player, lang) {
   player.persistentData.putString(
     'dragonsmods_language',
     lang
+  )
+
+  global.DRAGONSMODS_LOGGER.info(
+    `Idioma do jogador ${player.username} alterado para ${lang}`
   )
 }
 
@@ -85,6 +80,10 @@ function sendTranslatedMessage(player, key, variables) {
 // Reset para testes
 function resetLanguage(player) {
   player.persistentData.remove('dragonsmods_language')
+
+  global.DRAGONSMODS_LOGGER.debug(
+    `Idioma do jogador ${player.username} foi resetado`
+  )
 }
 
 // ============================================================
