@@ -81,6 +81,49 @@ function setLanguage(player, lang) {
   )
 }
 
+// ============================================================
+// CENTRAL DE TRADUÇÕES
+// ============================================================
+
+function translate(player, key, variables) {
+
+  const lang = getLanguage(player)
+  const translations = global.DRAGONSMODS_TRANSLATIONS
+
+  if (!translations || !translations[key]) {
+    return `[MISSING TRANSLATION: ${key}]`
+  }
+
+  let message =
+    translations[key][lang] ||
+    translations[key]['pt_br'] ||
+    `[MISSING LANGUAGE: ${key}]`
+
+  if (variables) {
+    Object.keys(variables).forEach(variable => {
+      message = message.replace(
+        new RegExp(`\\{${variable}\\}`, 'g'),
+        variables[variable]
+      )
+    })
+  }
+
+  return message
+}
+
+
+function sendTranslatedMessage(player, key, variables) {
+  player.tell(
+    translate(player, key, variables)
+  )
+}
+
+
+// Reset para testes
+function resetLanguage(player) {
+  player.persistentData.remove('dragonsmods_language')
+}
+
 
 // Envia uma mensagem traduzida
 function sendLangMessage(player, key) {
@@ -91,12 +134,6 @@ function sendLangMessage(player, key) {
     player.tell(message)
   }
 }
-
-// Reset para testes
-function resetLanguage(player) {
-  player.persistentData.remove('dragonsmods_language')
-}
-
 
 // ============================================================
 // TELA DE ESCOLHA DE IDIOMA
@@ -278,6 +315,33 @@ ServerEvents.commandRegistry(event => {
     languageOptions(
       Commands.literal('lenguaje')
     )
+  )
+
+})
+
+// ============================================================
+// TESTE DA CENTRAL DE TRADUÇÕES
+// Remover depois que validarmos
+// ============================================================
+
+ServerEvents.commandRegistry(event => {
+
+  const { commands: Commands } = event
+
+  event.register(
+    Commands.literal('testtranslate')
+      .executes(ctx => {
+
+        const player = ctx.source.player
+
+        sendTranslatedMessage(
+          player,
+          'economy.balance',
+          { amount: 1500 }
+        )
+
+        return 1
+      })
   )
 
 })
