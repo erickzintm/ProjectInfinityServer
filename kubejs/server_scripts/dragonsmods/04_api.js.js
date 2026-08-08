@@ -23,6 +23,7 @@ global.DragonsMods = {
     }
   },
 
+
   // ----------------------------------------------------------
   // Logger
   // ----------------------------------------------------------
@@ -45,11 +46,36 @@ global.DragonsMods = {
     }
   },
 
+
   // ----------------------------------------------------------
   // Idiomas
   // ----------------------------------------------------------
 
   language: {
+
+    get: function(player) {
+      return getLanguage(player)
+    },
+
+    set: function(player, lang) {
+
+      if (!this.isSupported(lang)) {
+        global.DRAGONSMODS_LOGGER.warn(
+          `Tentativa de definir idioma inválido: ${lang}`
+        )
+
+        return false
+      }
+
+      setLanguage(player, lang)
+
+      return true
+    },
+
+    reset: function(player) {
+      resetLanguage(player)
+    },
+
     getDefault: function() {
       return global.DRAGONSMODS_CONFIG.language.default
     },
@@ -60,10 +86,33 @@ global.DragonsMods = {
 
     isSupported: function(lang) {
       return global.DRAGONSMODS_CONFIG.language.supported.includes(lang)
+    },
+
+    hasChosen: function(player) {
+      return hasChosenLanguage(player)
     }
+  },
+
+
+  // ----------------------------------------------------------
+  // Traduções
+  // ----------------------------------------------------------
+
+  translate: function(player, key, variables) {
+    return translate(player, key, variables)
+  },
+
+
+  // ----------------------------------------------------------
+  // Mensagens
+  // ----------------------------------------------------------
+
+  message: function(player, key, variables) {
+    sendTranslatedMessage(player, key, variables)
   }
 
 }
+
 
 global.DragonsMods.log.info(
   `API carregada - ${global.DragonsMods.server.getProject()} v${global.DragonsMods.server.getVersion()}`
