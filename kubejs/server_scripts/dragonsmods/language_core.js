@@ -1,5 +1,5 @@
 // ============================================================
-// DragonsMods - Language Core v0.2
+// DragonsMods - Language Core v0.3
 // Project Infinity
 // ============================================================
 
@@ -92,6 +92,11 @@ function sendLangMessage(player, key) {
   }
 }
 
+// Reset para testes
+function resetLanguage(player) {
+  player.persistentData.remove('dragonsmods_language')
+}
+
 
 // ============================================================
 // TELA DE ESCOLHA DE IDIOMA
@@ -101,18 +106,37 @@ function showLanguageSelection(player) {
 
   player.tell(' ')
   player.tell('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
-  player.tell('🐉 DRAGONSMODS — PROJECT INFINITY')
-  player.tell(' ')
-  player.tell('Bem-vindo! / Welcome! / ¡Bienvenido!')
-  player.tell(' ')
-  player.tell('Escolha seu idioma:')
-  player.tell('Choose your language:')
-  player.tell('Elige tu idioma:')
+  player.tell(Text.of('🐉 DRAGONSMODS — PROJECT INFINITY').lightPurple().bold(true))
   player.tell(' ')
 
-  player.tell('🇧🇷  /idioma portugues')
-  player.tell('🇺🇸  /idioma english')
-  player.tell('🇪🇸  /idioma espanol')
+  player.tell('Bem-vindo! / Welcome! / ¡Bienvenido!')
+  player.tell(' ')
+  player.tell('Escolha seu idioma / Choose your language / Elige tu idioma')
+  player.tell(' ')
+
+  player.tell(
+    Text.of('[ 🇧🇷 PORTUGUÊS ]')
+      .green()
+      .bold(true)
+      .click('run_command:/idioma portugues')
+      .hover('Clique para escolher Português')
+  )
+
+  player.tell(
+    Text.of('[ 🇺🇸 ENGLISH ]')
+      .aqua()
+      .bold(true)
+      .click('run_command:/language english')
+      .hover('Click to choose English')
+  )
+
+  player.tell(
+    Text.of('[ 🇪🇸 ESPAÑOL ]')
+      .yellow()
+      .bold(true)
+      .click('run_command:/lenguaje espanol')
+      .hover('Haz clic para elegir Español')
+  )
 
   player.tell(' ')
   player.tell('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
@@ -215,7 +239,22 @@ ServerEvents.commandRegistry(event => {
             return 1
           })
       )
-  }
+      // Reset do idioma
+      .then(
+        Commands.literal('reset')
+          .executes(ctx => {
+
+            const player = ctx.source.player
+
+            resetLanguage(player)
+
+            player.tell('Idioma removido. Saia e entre novamente para testar a seleção inicial.')
+
+            return 1
+          })
+      )
+}
+      
 
 
   // 🇧🇷 Português
