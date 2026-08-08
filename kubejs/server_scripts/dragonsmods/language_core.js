@@ -1,44 +1,7 @@
 // ============================================================
-// DragonsMods - Language Core v0.3
+// DragonsMods - Language Core v0.5
 // Project Infinity
 // ============================================================
-
-// Idiomas suportados
-const DRAGONSMODS_LANGUAGES = {
-  pt_br: {
-    selected: 'Idioma alterado para Português.',
-    current: 'Seu idioma atual é Português.',
-    help: 'Use /idioma portugues, /idioma english ou /idioma espanol.',
-    welcome: 'Bem-vindo ao DragonsMods - Projeto Infinity!',
-    choose: 'Escolha seu idioma abaixo:',
-    portuguese: 'PORTUGUÊS',
-    english: 'ENGLISH',
-    spanish: 'ESPAÑOL'
-  },
-
-  en_us: {
-    selected: 'Language changed to English.',
-    current: 'Your current language is English.',
-    help: 'Use /idioma portugues, /idioma english or /idioma espanol.',
-    welcome: 'Welcome to DragonsMods - Project Infinity!',
-    choose: 'Choose your language below:',
-    portuguese: 'PORTUGUÊS',
-    english: 'ENGLISH',
-    spanish: 'ESPAÑOL'
-  },
-
-  es_es: {
-    selected: 'Idioma cambiado a Español.',
-    current: 'Tu idioma actual es Español.',
-    help: 'Usa /idioma portugues, /idioma english o /idioma espanol.',
-    welcome: '¡Bienvenido a DragonsMods - Proyecto Infinity!',
-    choose: 'Elige tu idioma abajo:',
-    portuguese: 'PORTUGUÊS',
-    english: 'ENGLISH',
-    spanish: 'ESPAÑOL'
-  }
-}
-
 
 // ============================================================
 // FUNÇÕES INTERNAS
@@ -124,17 +87,6 @@ function resetLanguage(player) {
   player.persistentData.remove('dragonsmods_language')
 }
 
-
-// Envia uma mensagem traduzida
-function sendLangMessage(player, key) {
-  const lang = getLanguage(player)
-  const message = DRAGONSMODS_LANGUAGES[lang][key]
-
-  if (message) {
-    player.tell(message)
-  }
-}
-
 // ============================================================
 // TELA DE ESCOLHA DE IDIOMA
 // ============================================================
@@ -218,13 +170,21 @@ ServerEvents.commandRegistry(event => {
       // Apenas /idioma, /language ou /lenguaje
       .executes(ctx => {
 
-        const player = ctx.source.player
+  const player = ctx.source.player
+  const currentLang = getLanguage(player)
 
-        sendLangMessage(player, 'current')
-        sendLangMessage(player, 'help')
+  if (currentLang === 'pt_br') {
+    sendTranslatedMessage(player, 'language.current.pt_br')
+  } else if (currentLang === 'en_us') {
+    sendTranslatedMessage(player, 'language.current.en_us')
+  } else if (currentLang === 'es_es') {
+    sendTranslatedMessage(player, 'language.current.es_es')
+  }
 
-        return 1
-      })
+  sendTranslatedMessage(player, 'language.help')
+
+  return 1
+})
 
 
       // Português
@@ -234,48 +194,49 @@ ServerEvents.commandRegistry(event => {
 
             const player = ctx.source.player
 
-            setLanguage(player, 'pt_br')
+            
+        setLanguage(player, 'pt_br')
 
-            sendLangMessage(player, 'selected')
-            sendLangMessage(player, 'welcome')
-
+        sendTranslatedMessage(player, 'language.selected.pt_br')
+        sendTranslatedMessage(player, 'system.welcome')
             return 1
           })
       )
 
 
       // English
-      .then(
-        Commands.literal('english')
-          .executes(ctx => {
+.then(
+  Commands.literal('english')
+    .executes(ctx => {
 
-            const player = ctx.source.player
+      const player = ctx.source.player
 
-            setLanguage(player, 'en_us')
+      setLanguage(player, 'en_us')
 
-            sendLangMessage(player, 'selected')
-            sendLangMessage(player, 'welcome')
+      sendTranslatedMessage(player, 'language.selected.en_us')
+      sendTranslatedMessage(player, 'system.welcome')
 
-            return 1
-          })
-      )
+      return 1
+    })
+)
 
 
       // Español
-      .then(
-        Commands.literal('espanol')
-          .executes(ctx => {
+.then(
+  Commands.literal('espanol')
+    .executes(ctx => {
 
-            const player = ctx.source.player
+      const player = ctx.source.player
 
-            setLanguage(player, 'es_es')
+      setLanguage(player, 'es_es')
 
-            sendLangMessage(player, 'selected')
-            sendLangMessage(player, 'welcome')
+      sendTranslatedMessage(player, 'language.selected.es_es')
+      sendTranslatedMessage(player, 'system.welcome')
 
-            return 1
-          })
-      )
+      return 1
+    })
+)
+
       // Reset do idioma
       .then(
         Commands.literal('reset')
@@ -315,33 +276,6 @@ ServerEvents.commandRegistry(event => {
     languageOptions(
       Commands.literal('lenguaje')
     )
-  )
-
-})
-
-// ============================================================
-// TESTE DA CENTRAL DE TRADUÇÕES
-// Remover depois que validarmos
-// ============================================================
-
-ServerEvents.commandRegistry(event => {
-
-  const { commands: Commands } = event
-
-  event.register(
-    Commands.literal('testtranslate')
-      .executes(ctx => {
-
-        const player = ctx.source.player
-
-        sendTranslatedMessage(
-          player,
-          'economy.balance',
-          { amount: 1500 }
-        )
-
-        return 1
-      })
   )
 
 })

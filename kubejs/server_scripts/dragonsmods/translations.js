@@ -68,6 +68,12 @@ global.DRAGONSMODS_TRANSLATIONS = {
     es_es: 'Tu idioma actual es Español.'
   },
 
+  'language.help': {
+  pt_br: 'Use /idioma portugues, /language english ou /lenguaje espanol.',
+  en_us: 'Use /idioma portugues, /language english or /lenguaje espanol.',
+  es_es: 'Usa /idioma portugues, /language english o /lenguaje espanol.'
+},
+
 
   // ----------------------------------------------------------
   // ECONOMIA - BASE FUTURA
@@ -120,4 +126,3 @@ global.DRAGONSMODS_TRANSLATIONS = {
   }
 
 }
-    
