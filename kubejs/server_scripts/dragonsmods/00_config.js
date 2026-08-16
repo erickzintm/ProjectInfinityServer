@@ -19,6 +19,19 @@ global.DRAGONSMODS_CONFIG = {
       'es_es'
     ]
   },
+  
+  economy: {
+  enabled: true,
+
+  currency: {
+    name: 'Dracoin',
+    plural: 'Dracoins',
+    symbol: 'Ð',
+    code: 'DRC'
+  },
+
+  startingBalance: 0
+},
 
   debug: {
     enabled: true

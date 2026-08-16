@@ -116,4 +116,4 @@ global.DragonsMods = {
 
 global.DragonsMods.log.info(
   `API carregada - ${global.DragonsMods.server.getProject()} v${global.DragonsMods.server.getVersion()}`
-)
+) 

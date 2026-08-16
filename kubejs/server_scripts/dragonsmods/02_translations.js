@@ -75,21 +75,45 @@ global.DRAGONSMODS_TRANSLATIONS = {
 },
 
 
-  // ----------------------------------------------------------
-  // ECONOMIA - BASE FUTURA
-  // ----------------------------------------------------------
+// ----------------------------------------------------------
+// ECONOMIA
+// ----------------------------------------------------------
 
-  'economy.balance': {
-    pt_br: 'Seu saldo é de {amount} moedas.',
-    en_us: 'Your balance is {amount} coins.',
-    es_es: 'Tu saldo es de {amount} monedas.'
-  },
+'economy.balance': {
+  pt_br: 'Seu saldo é de Ð {amount}.',
+  en_us: 'Your balance is Ð {amount}.',
+  es_es: 'Tu saldo es de Ð {amount}.'
+},
 
-  'economy.insufficient_funds': {
-    pt_br: 'Saldo insuficiente.',
-    en_us: 'Insufficient funds.',
-    es_es: 'Saldo insuficiente.'
-  },
+'economy.received': {
+  pt_br: 'Você recebeu Ð {amount} de {player}.',
+  en_us: 'You received Ð {amount} from {player}.',
+  es_es: 'Has recibido Ð {amount} de {player}.'
+},
+
+'economy.sent': {
+  pt_br: 'Você enviou Ð {amount} para {player}.',
+  en_us: 'You sent Ð {amount} to {player}.',
+  es_es: 'Has enviado Ð {amount} a {player}.'
+},
+
+'economy.insufficient_funds': {
+  pt_br: 'Você não possui Dracoins suficientes.',
+  en_us: 'You do not have enough Dracoins.',
+  es_es: 'No tienes suficientes Dracoins.'
+},
+
+'economy.invalid_amount': {
+  pt_br: 'O valor informado é inválido.',
+  en_us: 'The specified amount is invalid.',
+  es_es: 'La cantidad indicada no es válida.'
+},
+
+'economy.cannot_pay_self': {
+  pt_br: 'Você não pode enviar Dracoins para si mesmo.',
+  en_us: 'You cannot send Dracoins to yourself.',
+  es_es: 'No puedes enviarte Dracoins a ti mismo.'
+},
 
 
   // ----------------------------------------------------------
